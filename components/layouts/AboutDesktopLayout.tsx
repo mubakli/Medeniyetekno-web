@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutDesktopLayout() {
   return (
-    <div className="bg-[#231e2f] flex flex-row justify-center w-full">
+    <div className="bg-[#231e2f] flex flex-row justify-center w-full ">
       <div className="bg-[#231e2f] overflow-hidden w-[1440px] h-[3575px] relative">
         <div className="absolute w-[1247px] h-[432px] top-[98px] left-[101px]">
           <img
@@ -150,7 +150,13 @@ export default function AboutDesktopLayout() {
 
             <div className="absolute w-[1289px] h-[2520px] top-0 left-[17px]">
               <div className="absolute w-[254px] h-[321px] top-0 left-[101px]">
-                <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/ece2.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -297,7 +303,7 @@ export default function AboutDesktopLayout() {
                 ETKİNLİK&amp;PR
               </div>
 
-              <div className="absolute w-[286px] h-[321px] top-[419px] left-[335px]">
+              {/* <div className="absolute w-[286px] h-[321px] top-[419px] left-[335px]">
                 <div className="left-10 absolute w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
 
                 <div className="absolute w-[280px] h-[83px] top-52 left-0">
@@ -319,9 +325,9 @@ export default function AboutDesktopLayout() {
                   alt="Linkedin"
                   src="/linkedin.png"
                 />
-              </div>
+              </div> */}
 
-              <div className="absolute w-[254px] h-[321px] top-[775px] left-[351px]">
+              <div className="absolute w-[254px] h-[321px] top-[419px] left-[351px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
@@ -345,7 +351,7 @@ export default function AboutDesktopLayout() {
                 />
               </div>
 
-              <div className="absolute w-[254px] h-[321px] top-[1131px] left-[351px]">
+              <div className="absolute w-[254px] h-[321px] top-[775px] left-[351px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
@@ -369,7 +375,7 @@ export default function AboutDesktopLayout() {
                 />
               </div>
 
-              <div className="absolute w-[254px] h-[321px] top-[1487px] left-[351px]">
+              <div className="absolute w-[254px] h-[321px] top-[1131px] left-[351px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
@@ -393,7 +399,7 @@ export default function AboutDesktopLayout() {
                 />
               </div>
 
-              <div className="absolute w-[254px] h-[321px] top-[1843px] left-[351px]">
+              <div className="absolute w-[254px] h-[321px] top-[1487px] left-[351px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
@@ -666,7 +672,13 @@ export default function AboutDesktopLayout() {
               </div>
 
               <div className="absolute w-[254px] h-[321px] top-0 left-[929px]">
-                <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="sinan.jpg"
+                    alt="Circle Image"
+                    className="w-full h-full object-cover rounded-full object-[50%_0%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">

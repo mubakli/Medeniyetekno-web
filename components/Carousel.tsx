@@ -28,11 +28,11 @@ function Carousel() {
             />
             {/* Gradient overlay */}
             <div className="absolute bottom-0 left-0 w-full h-[50%] bg-gradient-to-t from-black to-transparent"></div>
-            <div className="absolute bottom-4 space-y-3 left-4 text-white z-10">
-            <h2 className="text-5xl font-bold">Kriptoloji 101</h2>
+            <div className="absolute bottom-4 space-y-3 left-2 sm:left-6 md:left-10 w-[90%] sm:w-[80%] space-y-1 sm:space-y-3 text-white z-10">
+              <h2 className="text-5xl font-bold">Kriptoloji 101</h2>
               <p className="text-2xl">İlhan Furkan Sadıkoğlu</p>
               <p className="text-xl">3 Aralık Salı</p>
-              <p className="text-lg font-light">
+              <p className="text-sm lg:text-lg font-light">
                 Okulumuz Bilgisayar Mühendisliği mezunlarından, DevOps Engineer
                 olarak çalışan Sayın İlhan Furkan Sadıkoğlu’nun anlatımıyla,
                 kriptoloji dünyasının derinliklerine iniyoruz.
@@ -53,10 +53,12 @@ function Carousel() {
             <div className="absolute bottom-4 space-y-3 left-4 text-white z-10">
               <h2 className="text-5xl font-bold">FinTech 101</h2>
               <p className="text-2xl">Alperen İnci</p>
-              <p className="text-xl">28 Kasım Perşembe
-              </p>
-              <p className="text-lg font-light">
-              Okulumuz Bilgisayar Mühendisliği mezunlarından, SoftRobotics şirketinde Software Engineer olarak çalışan Sayın Alperen İnci&apos;nin anlatımıyla, teknoloji ve finans dünyasının kesişim noktasına yakından bakacağız.
+              <p className="text-xl">28 Kasım Perşembe</p>
+              <p className="text-sm lg:text-lg font-light">
+                Okulumuz Bilgisayar Mühendisliği mezunlarından, SoftRobotics
+                şirketinde Software Engineer olarak çalışan Sayın Alperen
+                İnci&apos;nin anlatımıyla, teknoloji ve finans dünyasının
+                kesişim noktasına yakından bakacağız.
               </p>
             </div>
           </div>
