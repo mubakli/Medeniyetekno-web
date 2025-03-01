@@ -15,15 +15,11 @@ export default function MainDesktopLayout() {
     <div
       className={`w-full flex flex-col items-center justify-center ${montserrat.className}`}
     >
-      <div className="px-4 flex items-center justify-center w-full">
-        <Image
-          src="/image.png"
-          width={1440}
-          height={31108}
-          alt="asd"
-          className="hidden lg:block"
-        />
-        <div className="block lg:hidden flex w-[393px] h-[521px] top-[105px] -left-1.5">
+      <div className="hidden lg:block px-4 flex items-center justify-center w-full">
+        <Image src="/image.png" width={1440} height={31108} alt="asd" />
+      </div>
+      <div className="block lg:hidden bg-[#231e2f] overflow-hidden  w-full min-h-screen relative">
+        <div className="flex w-[393px] h-[521px] top-[105px] -left-1.5">
           <div className="absolute w-[308px] h-[308px] top-[113px] left-[39px] bg-[url(/bg-lines.png)] bg-[100%_100%]">
             <img
               className="absolute  top-0 left-0 object-cover"
@@ -68,100 +64,102 @@ export default function MainDesktopLayout() {
               </div>
             </div>
           </div>
-
-          <div className="flex w-[355px] h-[54px] top-0 left-[19px]">
-            <div className="relative w-[349px] h-[54px]">
-              <div className="absolute w-[341px] top-0 left-2 [text-shadow:0px_4px_4px_#00000040] blur-[2px] [font-family:'Montserrat-Bold',Helvetica] font-bold text-[#df0447] text-4xl text-center tracking-[0] leading-[normal]">
-                MEDENİYETEKNO
-              </div>
-
-              <div className="w-[341px] top-1.5 left-0 [text-shadow:0px_4px_4px_#00000040] blur-[2px] text-[#0b338b] text-4xl absolute [font-family:'Montserrat-Bold',Helvetica] font-bold text-center tracking-[0] leading-[normal]">
-                MEDENİYETEKNO
-              </div>
-
-              <div className="w-[341px] top-1 left-1 [text-shadow:0px_4px_4px_#ffffff40] text-white text-4xl absolute [font-family:'Montserrat-Bold',Helvetica] font-bold text-center tracking-[0] leading-[normal]">
-                MEDENİYETEKNO
-              </div>
-            </div>
-          </div>
-
-          <div className="flex w-[391px] h-[26px] top-[54px] left-0">
-            <div className="relative w-[387px] h-[26px] -top-px -left-px">
-              <div className="absolute w-[387px] h-[26px] top-0 left-0 [-webkit-text-stroke:1px_#000000] blur-[2.6px] [font-family:'Courier_New-Regular',Helvetica] font-normal text-white text-xl text-center tracking-[0] leading-[normal]">
-                #CreateTheFutureToday
-              </div>
-
-              <div className="w-[387px] h-[26px] top-0 left-0 [-webkit-text-stroke:1px_#000000] text-xl absolute [text-shadow:0px_4px_4px_#00000040] [font-family:'Courier_New-Regular',Helvetica] font-normal text-[#df9404] text-center tracking-[0] leading-[normal]">
-                #CreateTheFutureToday
-              </div>
-            </div>
-          </div>
-
-          <p className="absolute w-[327px] top-[432px] left-[30px] [font-family:'Montserrat-Regular',Helvetica] font-normal text-transparent text-xs text-center tracking-[0] leading-[normal]">
-            <span className="text-[#1b62ff]">MedeniyeTekno</span>
-
-            <span className="text-white">
-              , 2018&#39;de İstanbul Medeniyet Üniversitesi bilgisayar
-              mühendisliği öğrencileri tarafından kurulan bir{" "}
-            </span>
-
-            <span className="[font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-white">
-              öğrenci kulübüdür.
-            </span>
-
-            <span className="text-white"> Misyonu; </span>
-
-            <span className="text-[#df9404] underline">
-              yazılım dünyasındaki yenilikleri aktarmak, kodlama sevgisi
-              kazandırmak ve sektörü öğrencilere tanıtmaktır.
-            </span>
-          </p>
         </div>
+
+        <div className="absolute w-[355px] h-[54px] top-0 left-[19px]">
+          <div className="relative w-[349px] h-[54px]">
+            <div className="absolute w-[341px] top-0 left-2 [text-shadow:0px_4px_4px_#00000040] blur-[2px] [font-family:'Montserrat-Bold',Helvetica] font-bold text-[#df0447] text-4xl text-center tracking-[0] leading-[normal]">
+              MEDENİYETEKNO
+            </div>
+
+            <div className="w-[341px] top-1.5 left-0 [text-shadow:0px_4px_4px_#00000040] blur-[2px] text-[#0b338b] text-4xl absolute [font-family:'Montserrat-Bold',Helvetica] font-bold text-center tracking-[0] leading-[normal]">
+              MEDENİYETEKNO
+            </div>
+
+            <div className="w-[341px] top-1 left-1 [text-shadow:0px_4px_4px_#ffffff40] text-white text-4xl absolute [font-family:'Montserrat-Bold',Helvetica] font-bold text-center tracking-[0] leading-[normal]">
+              MEDENİYETEKNO
+            </div>
+          </div>
+        </div>
+
+        <div className="absolute w-[391px] h-[26px] top-[54px] left-0">
+          <div className="relative w-[387px] h-[26px] -top-px -left-px">
+            <div className="absolute w-[387px] h-[26px] top-0 left-0 [-webkit-text-stroke:1px_#000000] blur-[2.6px] [font-family:'Courier_New-Regular',Helvetica] font-normal text-white text-xl text-center tracking-[0] leading-[normal]">
+              #CreateTheFutureToday
+            </div>
+
+            <div className="w-[387px] h-[26px] top-0 left-0 [-webkit-text-stroke:1px_#000000] text-xl absolute [text-shadow:0px_4px_4px_#00000040] [font-family:'Courier_New-Regular',Helvetica] font-normal text-[#df9404] text-center tracking-[0] leading-[normal]">
+              #CreateTheFutureToday
+            </div>
+          </div>
+        </div>
+
+        <p className="absolute w-[327px] top-[432px] left-[30px] [font-family:'Montserrat-Regular',Helvetica] font-normal text-transparent text-xs text-center tracking-[0] leading-[normal]">
+          <span className="text-[#1b62ff]">MedeniyeTekno</span>
+
+          <span className="text-white">
+            , 2018&#39;de İstanbul Medeniyet Üniversitesi bilgisayar
+            mühendisliği öğrencileri tarafından kurulan bir{" "}
+          </span>
+
+          <span className="[font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-white">
+            öğrenci kulübüdür.
+          </span>
+
+          <span className="text-white"> Misyonu; </span>
+
+          <span className="text-[#df9404] underline">
+            yazılım dünyasındaki yenilikleri aktarmak, kodlama sevgisi
+            kazandırmak ve sektörü öğrencilere tanıtmaktır.
+          </span>
+        </p>
       </div>
       <div className="px-[5%] my-10 w-full">
-        <div className="h-12 text-[#1b62ff] text-[40px] font-bold">
+        {/* SON ETKİNLİKLER */}
+        <div className="min-h-[48px] text-[#1b62ff] sm:text-[40px] text-[28px] font-bold text-center">
           SON ETKİNLİKLER
         </div>
-        <div className="h-12 mb-4">
-          <span className="text-[#df9404] text-[28px] font-light font-['Montserrat'] underline">
+        <div className="min-h-[48px] mb-4 text-center">
+          <span className="text-[#df9404] sm:text-[28px] text-[22px] font-light font-['Montserrat'] underline">
             Geleceği Şekillendirmeye
           </span>
-          <span className="text-[#df9404] text-[28px] font-light font-['Montserrat']">
+          <span className="text-[#1b62ff] sm:text-[28px] text-[22px] font-medium font-['Montserrat']">
             {" "}
-          </span>
-          <span className="text-[#1b62ff] text-[28px] font-medium font-['Montserrat']">
             MedeniyeTekno
           </span>
-          <span className="text-[#df9404] text-[28px] font-light font-['Montserrat']">
+          <span className="text-[#df9404] sm:text-[28px] text-[22px] font-light font-['Montserrat']">
             {" "}
             ile Başla!
           </span>
         </div>
+
         <Carousel />
-        <div className="h-12 text-[#1b62ff] text-[40px] font-bold py-10">
-          <span className="h-12 text-white text-[40px] font-bold">
-            SOSYAL MEDYA&apos;DA{" "}
-          </span>
+
+        {/* SOSYAL MEDYA */}
+        <div className="min-h-[48px] text-[#1b62ff] sm:text-[40px] text-[28px] font-bold md:py-6 text-center">
+          <span className="text-white">SOSYAL MEDYA&apos;DA </span>{" "}
           MEDENİYETEKNO
         </div>
-        <div className="h-12 py-4">
-          <span className="text-[#df9404] text-[28px] font-light font-['Montserrat'] underline">
+
+        <div className="min-h-[48px] py-4 text-center">
+          <span className="text-[#df9404] sm:text-[28px] text-[22px] font-light font-['Montserrat'] underline">
             Etkinliklerimizi kaçırmamak için
           </span>
-          <span className="text-[#df9404] text-[28px] font-light font-['Montserrat']">
+          <span className="text-[#df9404] sm:text-[28px] text-[22px] font-light font-['Montserrat']">
             {" "}
             Bizi{" "}
           </span>
           <span className="text-[28px] font-medium font-['Montserrat'] bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
             Instagram
           </span>
-          <span className="text-[#df9404] text-[28px] font-light font-['Montserrat']">
+          <span className="text-[#df9404] sm:text-[28px] text-[22px] font-light font-['Montserrat']">
             &apos;dan takip edebilirsiniz.
           </span>
         </div>
+
         <Link
           href={"https://www.instagram.com/medeniyetekno"}
-          className="mt-5 flex flex-row items-center justify-start space-x-3"
+          className="mt-5 flex flex-row items-center justify-center space-x-3"
         >
           <Image
             src="/instagram.png"
@@ -169,13 +167,16 @@ export default function MainDesktopLayout() {
             height={40}
             alt="instagram_logo"
           />
-          <span className="text-white text-[20px] font-bold font-['Montserrat']">
+          <span className="text-white sm:text-[20px] text-[16px] font-bold font-['Montserrat']">
             {" "}
             @medeniyetekno
           </span>
         </Link>
+        <div className="hidden lg:block">
+          <InstagramSwiper />
+        </div>
       </div>
-      <InstagramSwiper />
+
       <Contact />
     </div>
   );

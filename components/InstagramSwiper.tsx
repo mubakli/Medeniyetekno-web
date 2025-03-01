@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function InstagramSwiper() {
   return (
-    <div className="w-full">
+    <div className="w-full hidden lg:block">
       <Swiper
         slidesPerView={2.2}
         modules={[Autoplay]} // Use the Autoplay module
@@ -23,7 +23,7 @@ function InstagramSwiper() {
             <div className="flex space-x-5 justify-center items-center">
               <div className="w-[500px] h-[500px] relative overflow-hidden rounded-xl">
                 <Image
-                  src={`/${(index*3)+1}.jpg`}
+                  src={`/${index * 3 + 1}.jpg`}
                   alt={`/${index}`}
                   fill
                   style={{ objectFit: "cover" }}
@@ -32,16 +32,16 @@ function InstagramSwiper() {
               <div className="flex flex-col h-[500px] items-center justify-between">
                 <div className="relative w-[230px] h-[230px] rounded-xl overflow-hidden">
                   <Image
-                  src={`/${(index*3)+2}.jpg`}
-                  alt={`/${index}`}
+                    src={`/${index * 3 + 2}.jpg`}
+                    alt={`/${index}`}
                     fill
                     style={{ objectFit: "cover" }}
                   />
                 </div>
                 <div className="relative w-[230px] h-[230px] rounded-xl overflow-hidden">
                   <Image
-                  src={`/${(index*3)+3}.jpg`}
-                  alt={`/${index}`}
+                    src={`/${index * 3 + 3}.jpg`}
+                    alt={`/${index}`}
                     fill
                     style={{ objectFit: "cover" }}
                   />

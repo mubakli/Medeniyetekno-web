@@ -1,5 +1,7 @@
 import React from "react";
 import Carousel from "../Carousel";
+import InstagramSwiper from "../InstagramSwiper";
+import Contact from "../Contact";
 // import { DivWrapper } from "./DivWrapper";
 // import { PropertyDefault } from "./PropertyDefault";
 // import { PropertyDefaultWrapper } from "./PropertyDefaultWrapper";
@@ -20,7 +22,7 @@ export default function MainMobileLayout() {
   return (
     <div className="bg-[#231e2f] flex flex-row justify-center w-full">
       <div className="bg-[#231e2f] overflow-hidden w-[375px] h-[2228px] relative">
-        <div className="absolute w-[393px] h-[521px] top-[105px] -left-1.5">
+        <div className="flex w-[393px] h-[521px] top-[105px] -left-1.5">
           <div className="absolute w-[308px] h-[308px] top-[113px] left-[39px] bg-[url(/bg-lines.png)] bg-[100%_100%]">
             <img
               className="absolute  top-0 left-0 object-cover"
@@ -114,12 +116,20 @@ export default function MainMobileLayout() {
             </span>
           </p>
         </div>
+        <Carousel></Carousel>
 
+        <InstagramSwiper />
+        <Contact />
         <div className="absolute w-[606px] h-[1332px] top-[656px] left-[-52px]">
-          <Carousel />
+          <div className="absolute w-[566px] h-[385px] top-[321px] left-10"></div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
-          <div className="absolute w-[566px] h-[385px] top-[321px] left-10">
-            <div className="relative w-[546px] h-[385px] left-3">
+{
+  /* <div className="relative w-[546px] h-[385px] left-3">
               <img
                 className="absolute w-[375px] h-[385px] top-0 left-0 object-cover"
                 alt="Instagram bg"
@@ -169,10 +179,5 @@ export default function MainMobileLayout() {
 
                 <div className="absolute w-[119px] h-[153px] top-0 left-[416px] bg-[#d9d9d9] rounded-[15px]" />
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+            </div> */
 }

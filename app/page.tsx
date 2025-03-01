@@ -6,8 +6,12 @@ import MainMobileLayout from "../components/layouts/MainMobileLayout";
 export default function Home() {
   return (
     <div>
-      {/* <MainDesktopLayout /> */}
-      <MainMobileLayout></MainMobileLayout>
+      <div className="hidden lg:block">
+        <MainDesktopLayout />
+      </div>
+      <div className="block lg:hidden">
+        <MainMobileLayout />
+      </div>
     </div>
   );
 }
