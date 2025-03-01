@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function InstagramSwiper() {
   return (
-    <div className="w-full hidden lg:block">
+    <div className="w-full ">
       <Swiper
         slidesPerView={2.2}
         modules={[Autoplay]} // Use the Autoplay module
