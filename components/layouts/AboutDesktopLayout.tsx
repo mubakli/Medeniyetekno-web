@@ -86,7 +86,7 @@ export default function AboutDesktopLayout() {
             <img
               className="absolute w-[895px] h-1 top-[45px] left-0"
               alt="Line"
-              src="/line2.png"
+              src="/Line2.png"
             />
           </div>
 
@@ -120,31 +120,31 @@ export default function AboutDesktopLayout() {
               <img
                 className="absolute w-px h-[2200px] top-0 left-0 object-cover"
                 alt="Line"
-                src="/line.png"
+                src="/Line.png"
               />
 
               <img
                 className="absolute w-px h-[2200px] top-0 left-[656px] object-cover"
                 alt="Line"
-                src="/line.png"
+                src="/Line.png"
               />
 
               <img
                 className="absolute w-px h-[2200px] top-0 left-[328px] object-cover"
                 alt="Line"
-                src="/line.png"
+                src="/Line.png"
               />
 
               <img
                 className="absolute w-px h-[2200px] top-0 left-[984px] object-cover"
                 alt="Line"
-                src="/line.png"
+                src="/Line.png"
               />
 
               <img
                 className="absolute w-px h-[2200px] top-0 left-[1312px] object-cover"
                 alt="Line"
-                src="/line.png"
+                src="/Line.png"
               />
             </div>
 

@@ -1,13 +1,5 @@
 import React from "react";
-// import circuitLines from "./circuit-lines.png";
-// import image from "./image.png";
-// import instagram from "./instagram.png";
-// import line1 from "./line-1.svg";
-// import line2 from "./line-2.svg";
-// import line3 from "./line-3.svg";
-// import line7 from "./line-7.svg";
-// import line24 from "./line-24.svg";
-// import linkedin12 from "./linkedin-1-2.png";
+
 // import linkedin13 from "./linkedin-1-3.png";
 // import linkedin14 from "./linkedin-1-4.png";
 // import linkedin15 from "./linkedin-1-5.png";
@@ -112,7 +104,7 @@ export default function AboutMobileLayout() {
                 <img
                   className="absolute w-[327px] h-0.5 top-20 left-6"
                   alt="Line"
-                  src="/line2.png"
+                  src="/Line2.png"
                 />
               </div>
             </div>
@@ -124,13 +116,13 @@ export default function AboutMobileLayout() {
             <img
               className="absolute w-px h-[2699px] top-[472px] left-12 object-cover"
               alt="Line"
-              src="/line.png"
+              src="/Line.png"
             />
 
             <img
               className="absolute w-px h-[2699px] top-[472px] left-[399px] object-cover"
               alt="Line"
-              src="/line.png"
+              src="/Line.png"
             />
           </div>
 
