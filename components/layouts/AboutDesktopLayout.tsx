@@ -152,7 +152,7 @@ export default function AboutDesktopLayout() {
               <div className="absolute w-[254px] h-[321px] top-0 left-[101px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
                   <img
-                    src="/ece2.jpg"
+                    src="/members/ece2.jpg"
                     alt="Circle image"
                     className="w-full h-full object-cover rounded-full object-[50%_10%]"
                   />
@@ -674,7 +674,7 @@ export default function AboutDesktopLayout() {
               <div className="absolute w-[254px] h-[321px] top-0 left-[929px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
                   <img
-                    src="sinan.jpg"
+                    src="/members/sinan.jpg"
                     alt="Circle Image"
                     className="w-full h-full object-cover rounded-full object-[50%_0%]"
                   />
