@@ -13,7 +13,7 @@ const montserratBold = Montserrat({
 
 function Contact() {
   return (
-    <div className={`px-[5%] my-10 w-full ${montserrat.className}`}>
+    <div className={`px-[5%]  my-10 w-full ${montserrat.className}`}>
       <div
         className={`h-12 text-[#1b62ff] sm:text-[20px] lg:text-[40px] font-bold mb-5 ${montserratBold.className}`}
       >

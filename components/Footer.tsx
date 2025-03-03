@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div>
-      <div className="border-t-[2px] border-[#df9404] w-full mb-4"></div>
+    <footer>
+      <div className=" border-t-[2px] border-[#df9404] w-full mb-4"></div>
       <div className="w-full px-[5%] flex items-start justify-between">
         <div className="w-[550px] space-y-5">
           <div className="font-bold text-white text-2xl">MEDENİYETEKNO</div>
@@ -65,7 +65,7 @@ function Footer() {
           </span>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

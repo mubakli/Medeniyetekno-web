@@ -6,11 +6,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/apply/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/chunks/app/apply/page.js"
+    ],
+    "/api/apply/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/apply/route.js"
     ]
   }
 }

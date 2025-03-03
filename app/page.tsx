@@ -20,8 +20,8 @@ export default function Home() {
           <Image src="/image.png" width={1440} height={31108} alt="asd" />
         </div>
         <div className="block lg:hidden bg-[#231e2f] overflow-hidden  w-full  relative">
-          <div className="flex w-[393px] h-[521px] top-[105px] -left-1.5">
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-[308px] h-[308px] top-[113px] left-[39px] bg-[url(/bg_lines.png)] bg-[100%_100%]">
+          <div className="flex w-[393px] h-[445px] top-[105px] -left-1.5">
+            <div className="absolute left-1/2 transform -translate-x-1/2 w-[308px] left-0 h-[308px] top-[113px]  bg-[url(/bg_lines.png)] bg-[100%_100%]">
               <img
                 className="absolute  top-0 left-0 object-cover"
                 alt="Rectangles"
@@ -67,7 +67,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-[355px] h-[54px] top-0 left-[19px]">
+          <div className="absolute left-1/2 transform -translate-x-1/2 w-[355px] h-[54px] top-0 left-0 ">
             <div className="relative w-[349px] h-[54px]">
               <div className="absolute w-[341px] top-0 left-2 [text-shadow:0px_4px_4px_#00000040] blur-[2px] [font-family:'Montserrat-Bold',Helvetica] font-bold text-[#df0447] text-4xl text-center tracking-[0] leading-[normal]">
                 MEDENİYETEKNO
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="absolute left-1/2 transform -translate-x-1/2 w-[391px] h-[26px] top-[54px] left-0">
+          <div className="absolute  left-1/2 transform -translate-x-1/2 w-[391px] h-[26px] top-[54px] left-0">
             <div className="relative w-[387px] h-[26px] -top-px -left-px">
               <div className="absolute w-[387px] h-[26px] top-0 left-0 [-webkit-text-stroke:1px_#000000] blur-[2.6px] [font-family:'Courier_New-Regular',Helvetica] font-normal text-white text-xl text-center tracking-[0] leading-[normal]">
                 #CreateTheFutureToday
@@ -95,8 +95,8 @@ export default function Home() {
             </div>
           </div>
 
-          <p className="absolute left-1/2 transform -translate-x-1/2 w-[327px] top-[432px] left-[30px] [font-family:'Montserrat-Regular',Helvetica] font-normal text-transparent text-xs text-center tracking-[0] leading-[normal]">
-            <span className="text-[#1b62ff]">MedeniyeTekno</span>
+          <p className="relative left-1/2 transform -translate-x-1/2 w-[327px]  text-lg  left-0 [font-family:'Montserrat-Regular',Helvetica] font-normal text-transparent  text-center tracking-[0] leading-[normal]">
+            <span className=" text-[#1b62ff]">MedeniyeTekno</span>
 
             <span className="text-white">
               , 2018&#39;de İstanbul Medeniyet Üniversitesi bilgisayar
@@ -115,7 +115,7 @@ export default function Home() {
             </span>
           </p>
         </div>
-        <div className="px-[5%] lg:my-10 w-full">
+        <div className="px-[5%] pt-5 lg:my-10 w-full">
           {/* SON ETKİNLİKLER */}
           <div className="min-h-[48px] text-[#1b62ff] sm:text-[40px] text-[28px] font-bold text-center">
             SON ETKİNLİKLER
