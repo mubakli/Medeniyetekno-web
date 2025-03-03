@@ -46,25 +46,24 @@ function Contact() {
           </button>
         </div>
         <div
-          className="flex flex-col items-start justify-between py-10 sm:py-36 h-auto w-full max-w-[90%] sm:max-w-[550px] p-6 sm:p-10 bg-cover bg-center sm:bg-top rounded-lg bg-no-repeat"
+          className="flex flex-col items-center justify-between py-10 lg:py-36 h-auto w-full max-w-[90%] lg:max-w-[550px] p-6 lg:p-10 bg-cover bg-center lg:bg-top rounded-lg bg-no-repeat"
           style={{
             backgroundImage: "url('/logoBg.png')",
-            backgroundSize: "contain", // Ensures the full logo is visible without repetition
+            backgroundSize: "contain",
           }}
         >
-          <div>
-            <div className="text-[#df9404] text-xl sm:text-3xl font-bold text-center sm:text-left">
-              E-mail
-            </div>
-            <div className="text-base sm:text-lg text-white font-light text-center sm:text-left">
-              medeniyetekno@gmail.com
-            </div>
+          <div className="text-[#df9404] text-xl sm:text-3xl font-bold text-center">
+            E-mail
           </div>
-          <div>
-            <div className="text-[#df9404] text-xl sm:text-3xl font-bold text-center sm:text-left">
+          <div className="text-base sm:text-lg text-white font-light text-center">
+            medeniyetekno@gmail.com
+          </div>
+
+          <div className="text-center">
+            <div className="text-[#df9404] text-xl sm:text-3xl font-bold">
               Adres
             </div>
-            <div className="text-base sm:text-lg text-white font-light text-center sm:text-left">
+            <div className="text-base sm:text-lg text-white font-light">
               Ünalan Mah. Ünalan Sok D-100 Karayolu Yanyolu, 34700
               Üsküdar/İstanbul
             </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer() {
   return (
     <footer>
@@ -52,16 +54,16 @@ function Footer() {
               <br />
             </span>
             <span className="text-white text-base font-semibold font-['Montserrat']">
-              Ana Sayfa
+              <Link href="/">Ana Sayfa</Link>
               <br />
               <br />
-              Etkinlikler
+              <Link href="/events">Etkinlikler</Link>
               <br />
               <br />
-              İletişim
+              <Link href="/contact">İletişim</Link>
               <br />
               <br />
-              Hakkında
+              <Link href="/about">Hakkında</Link>
               <br />
             </span>
           </div>
