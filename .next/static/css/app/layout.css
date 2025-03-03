@@ -495,9 +495,6 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
-.visible {
-  visibility: visible;
-}
 .absolute {
   position: absolute;
 }
@@ -783,9 +780,6 @@ video {
 .top-\[11px\] {
   top: 11px;
 }
-.top-\[124px\] {
-  top: 124px;
-}
 .top-\[129px\] {
   top: 129px;
 }
@@ -836,6 +830,9 @@ video {
 }
 .top-\[2025px\] {
   top: 2025px;
+}
+.top-\[20px\] {
+  top: 20px;
 }
 .top-\[215px\] {
   top: 215px;
@@ -969,9 +966,6 @@ video {
 .top-\[81px\] {
   top: 81px;
 }
-.top-\[85px\] {
-  top: 85px;
-}
 .top-\[88px\] {
   top: 88px;
 }
@@ -1005,6 +999,10 @@ video {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -1020,17 +1018,23 @@ video {
 .ml-auto {
   margin-left: auto;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .mt-5 {
   margin-top: 1.25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
 }
 .block {
   display: block;
 }
 .flex {
   display: flex;
-}
-.grid {
-  display: grid;
 }
 .hidden {
   display: none;
@@ -1053,6 +1057,9 @@ video {
 .h-3 {
   height: 0.75rem;
 }
+.h-32 {
+  height: 8rem;
+}
 .h-5 {
   height: 1.25rem;
 }
@@ -1065,11 +1072,11 @@ video {
 .h-96 {
   height: 24rem;
 }
-.h-\[1006px\] {
-  height: 1006px;
-}
 .h-\[102px\] {
   height: 102px;
+}
+.h-\[1066px\] {
+  height: 1066px;
 }
 .h-\[1130px\] {
   height: 1130px;
@@ -1260,11 +1267,8 @@ video {
 .h-full {
   height: 100%;
 }
-.h-1\/2 {
-  height: 50%;
-}
-.max-h-screen {
-  max-height: 100vh;
+.h-24 {
+  height: 6rem;
 }
 .min-h-\[48px\] {
   min-height: 48px;
@@ -1509,11 +1513,17 @@ video {
 .w-px {
   width: 1px;
 }
+.w-32 {
+  width: 8rem;
+}
 .max-w-\[90\%\] {
   max-width: 90%;
 }
-.flex-grow {
-  flex-grow: 1;
+.max-w-lg {
+  max-width: 32rem;
+}
+.max-w-md {
+  max-width: 28rem;
 }
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
@@ -1526,14 +1536,14 @@ video {
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.resize-none {
+  resize: none;
+}
 .flex-row {
   flex-direction: row;
 }
 .flex-col {
   flex-direction: column;
-}
-.place-items-center {
-  place-items: center;
 }
 .items-start {
   align-items: flex-start;
@@ -1758,6 +1768,9 @@ video {
 .p-6 {
   padding: 1.5rem;
 }
+.p-8 {
+  padding: 2rem;
+}
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1773,6 +1786,10 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .px-\[5\%\] {
   padding-left: 5%;
@@ -1809,6 +1826,12 @@ video {
 }
 .pt-5 {
   padding-top: 1.25rem;
+}
+.pl-14 {
+  padding-left: 3.5rem;
+}
+.pr-4 {
+  padding-right: 1rem;
 }
 .text-center {
   text-align: center;
@@ -1945,6 +1968,11 @@ video {
   --tw-shadow-colored: 0px 4px 4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1956,6 +1984,14 @@ video {
 .blur-\[2px\] {
   --tw-blur: blur(2px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-200 {
+  transition-duration: 200ms;
 }
 .\[-webkit-background-clip\:text\] {
   -webkit-background-clip: text;
@@ -2008,6 +2044,10 @@ video {
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
+.hover\:bg-blue-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
+}
 .hover\:text-\[\#DF0447\]:hover {
   --tw-text-opacity: 1;
   color: rgb(223 4 71 / var(--tw-text-opacity, 1));
@@ -2030,31 +2070,10 @@ video {
     max-width: 450px;
   }
 
-  .sm\:max-w-\[550px\] {
-    max-width: 550px;
-  }
-
   .sm\:space-y-3 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-  }
-
-  .sm\:bg-top {
-    background-position: top;
-  }
-
-  .sm\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .sm\:py-36 {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-  }
-
-  .sm\:text-left {
-    text-align: left;
   }
 
   .sm\:text-3xl {
@@ -2109,12 +2128,16 @@ video {
     display: none;
   }
 
-  .md\:h-\[934px\] {
-    height: 934px;
-  }
-
   .md\:h-\[947px\] {
     height: 947px;
+  }
+
+  .md\:h-\[994px\] {
+    height: 994px;
+  }
+
+  .md\:w-\[1308px\] {
+    width: 1308px;
   }
 
   .md\:w-\[595px\] {
@@ -2129,26 +2152,13 @@ video {
     width: 100%;
   }
 
-  .md\:max-w-\[550px\] {
-    max-width: 550px;
-  }
-
-  .md\:bg-top {
-    background-position: top;
-  }
-
-  .md\:p-10 {
-    padding: 2.5rem;
+  .md\:bg-\[\#0000004c\] {
+    background-color: #0000004c;
   }
 
   .md\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-  }
-
-  .md\:py-36 {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
   }
 
   .md\:pb-0 {
@@ -2164,6 +2174,10 @@ video {
   .lg\:my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:block {
@@ -2198,6 +2212,10 @@ video {
     width: 450px;
   }
 
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .lg\:max-w-\[550px\] {
     max-width: 550px;
   }
@@ -2222,10 +2240,6 @@ video {
   .lg\:py-36 {
     padding-top: 9rem;
     padding-bottom: 9rem;
-  }
-
-  .lg\:text-left {
-    text-align: left;
   }
 
   .lg\:text-\[40px\] {
