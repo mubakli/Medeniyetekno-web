@@ -16,7 +16,7 @@ export default function Home() {
       <div
         className={`w-full flex flex-col items-center justify-center ${montserrat.className}`}
       >
-        <div className="hidden lg:block px-4 flex items-center justify-center w-full">
+        <div className="relative hidden lg:flex px-4 flex items-center justify-center w-full">
           <Image src="/image.png" width={1440} height={31108} alt="asd" />
         </div>
         <div className="block lg:hidden bg-[#231e2f] overflow-hidden  w-full  relative">
