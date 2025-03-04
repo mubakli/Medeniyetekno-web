@@ -111,7 +111,7 @@ export default function AboutDesktopLayout() {
             <img
               className="absolute w-[895px] h-1 top-[46px] left-0"
               alt="Line"
-              src="/line2.png"
+              src="/Line2.png"
             />
           </div>
 
@@ -181,6 +181,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[419px] left-[23px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/aslı.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -205,6 +212,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[775px] left-[23px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/kerem2.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_50%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -229,6 +243,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[1131px] left-[23px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/ravza.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_0%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -253,6 +274,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[1487px] left-[23px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/gökçe.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -277,6 +305,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[1843px] left-[23px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/zeynep.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -329,6 +364,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[419px] left-[351px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/PHOTO.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_35%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -353,6 +395,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[775px] left-[351px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/semih.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -377,6 +426,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[1131px] left-[351px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/salih.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_40%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -401,6 +457,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[1487px] left-[351px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/saruhan.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -429,6 +492,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[286px] h-[321px] top-[419px] left-[662px]">
                 <div className="left-10 absolute w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-10 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/selim.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[280px] h-[83px] top-52 left-0">
                   <div className="absolute w-[280px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -453,6 +523,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[775px] left-[678px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/batuhan.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -477,6 +554,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[306px] h-[321px] top-[1131px] left-[652px]">
                 <div className="left-[50px] absolute w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute left-[50px] w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/furkan.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[300px] h-[83px] top-52 left-0">
                   <div className="absolute w-[300px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -501,6 +585,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[1487px] left-[678px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/setenay.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -528,7 +619,14 @@ export default function AboutDesktopLayout() {
               </div>
 
               <div className="absolute w-[286px] h-[321px] top-[419px] left-[991px]">
-                <div className="left-10 absolute w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="left-6 absolute w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/azra.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_30%]"
+                  />
+                </div>
 
                 <div className="absolute w-[280px] h-[83px] top-52 left-0">
                   <div className="absolute w-[280px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -553,6 +651,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[775px] left-[1007px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/yunus2.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_30%]"
+                  />
+                </div>
 
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -576,7 +681,15 @@ export default function AboutDesktopLayout() {
               </div>
 
               <div className="absolute w-[306px] h-[321px] top-[1131px] left-[981px]">
-                <div className="left-[50px] absolute w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="left-[50px] absolute  w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
+                <div className="absolute  left-[50px] w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  {/* need to larger image */}
+                  <img
+                    src="/members/aleyna.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_60%] "
+                  />
+                </div>
 
                 <div className="absolute w-[300px] h-[83px] top-52 left-0">
                   <div className="absolute w-[300px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
@@ -601,7 +714,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[306px] h-[321px] top-[2199px] left-[981px]">
                 <div className="left-[50px] absolute w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
-
+                <div className="absolute left-[50px] w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/ahmed.jpeg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_60%]"
+                  />
+                </div>
                 <div className="absolute w-[300px] h-[83px] top-52 left-0">
                   <div className="absolute w-[300px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
                     AHMED FARUK ER
@@ -625,7 +744,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[1487px] left-[1007px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
-
+                <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/yusuf.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_50%]"
+                  />
+                </div>
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
                     YUSUF UZUN
@@ -649,7 +774,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-[1843px] left-[1007px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
-
+                <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/yunus.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_70%]"
+                  />
+                </div>
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
                     YUNUS EMRE EKİM
@@ -703,7 +834,13 @@ export default function AboutDesktopLayout() {
 
               <div className="absolute w-[254px] h-[321px] top-0 left-[515px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
-
+                <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+                  <img
+                    src="/members/yaren.jpg"
+                    alt="Circle image"
+                    className="w-full h-full object-cover rounded-full object-[50%_10%]"
+                  />
+                </div>
                 <div className="absolute w-[248px] h-[83px] top-52 left-0">
                   <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
                     YAREN ÇİĞDEM

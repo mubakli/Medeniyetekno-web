@@ -47,13 +47,3 @@ export async function POST(req) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
-
-export async function GET() {
-  try {
-    await connectToDatabase();
-    const subscribers = await Subscriber.find();
-    return NextResponse.json(subscribers);
-  } catch (error) {
-    return NextResponse.json({ error: "Server error" }, { status: 500 });
-  }
-}
