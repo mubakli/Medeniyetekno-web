@@ -4,10 +4,10 @@ import AboutDesktopLayout from "@/components/layouts/AboutDesktopLayout";
 export default function About() {
   return (
     <>
-      <div className="block lg:hidden">
+      <div className="block md:hidden">
         <AboutMobileLayout />
       </div>
-      <div className="hidden lg:block">
+      <div className="hidden md:block">
         <AboutDesktopLayout />
       </div>
     </>

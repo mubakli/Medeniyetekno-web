@@ -1,303 +1,105 @@
-function Footer() {
+import Image from "next/image";
+
+function EventComponent({
+  title,
+  presenter,
+  date,
+  time,
+  description,
+  poster,
+}: EventProps) {
   return (
-    <footer>
-      <div className=" border-t-[2px] border-[#df9404] w-full mb-4"></div>
-      <div className="w-full px-[5%] flex items-start justify-between">
-        <div className="w-[550px] space-y-5">
-          <div className="font-bold text-white text-2xl">MEDENİYETEKNO</div>
-          <div className="text-[#df9404] text-2xl font-normal font-['Courier New']">
-            #CreateTheFutureToday
+    <div className="flex justify-center">
+      <div className="flex w-[90%] h-96">
+        <div className="md:border-r-2 border-t-2 w-full absolute md:w-auto md:flex md:h-full border-[#df9404] items-center justify-center md:relative">
+          {" "}
+          {/* left line */}
+          <div className="absolute text-white z-10 px-4 py-1 bg-[#231E2F]">
+            {date}
           </div>
-          <div className="hidden md:block text-white text-base font-normal font-['Montserrat']">
-            MedeniyeTekno, 2018 yılında İstanbul Medeniyet Üniversitesi
-            bünyesinde bilgisayar mühendisliği öğrencileri tarafından kurulan
-            bir öğrenci kulübüdür.
+          {/* Adjusted dot positioning */}
+          <div className="absolute left-0 top-0 w-3 h-3 ml-[0.5px] bg-[#df9404] rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+        </div>
+        <div className="flex items-center justify-center w-full h-full bg-[#231E2F] text-white space-x-10">
+          <Image
+            src={`${poster}`}
+            alt={`${poster}`}
+            width={230}
+            height={230}
+            className="w-[109px] h-[158px]"
+          />
+          <div className="flex flex-col space-y-2 w-[70%]">
+            <h1 className="text-md md:text-4xl text-[#df0447]">{title}</h1>
+            <h2 className="text-sm md:text-2xl text-[#df9404]">{presenter}</h2>
+            <h3 className="text-sm md:text-xl opacity-70">
+              {date} - {time}
+            </h3>
+            <p>{description}</p>
+            <button className="bg-[#1b62ff] text-white w-[200px] py-3 px-3 rounded-full self-end">
+              Başvur
+            </button>
           </div>
-        </div>
-        <div className="w-[261px] h-[182px] text-center">
-          <span className="text-white text-base font-bold font-['Montserrat'] underline">
-            İLETİŞİM
-            <br />
-          </span>
-          <span className="text-white text-base font-bold font-['Montserrat']">
-            <br />
-          </span>
-          <span className="text-white text-base font-semibold font-['Montserrat']">
-            E-mail
-            <br />
-          </span>
-          <span className="text-white text-base font-normal font-['Montserrat']">
-            medeniyetekno@gmail.com
-            <br />
-            <br />
-          </span>
-          <span className="text-white text-base font-semibold font-['Montserrat']">
-            Adres
-            <br />
-          </span>
-          <span className="text-white text-base font-normal font-['Montserrat']">
-            Ünalan Mah. Ünalan Sok D-100 Karayolu Yanyolu, 34700
-            Üsküdar/İstanbul
-            <br />
-            <br />
-          </span>
-        </div>
-        <div className="w-[261px] h-[182px] text-center">
-          <span className="text-white text-base font-bold font-['Montserrat'] underline">
-            NAVİGASYON
-            <br />
-          </span>
-          <span className="text-white text-base font-bold font-['Montserrat']">
-            <br />
-          </span>
-          <span className="text-white text-base font-semibold font-['Montserrat']">
-            Ana Sayfa
-            <br />
-            <br />
-            Etkinlikler
-            <br />
-            <br />
-            İletişim
-            <br />
-            <br />
-            Hakkında
-            <br />
-          </span>
         </div>
       </div>
-    </footer>
+    </div>
   );
 }
 
-export default Footer;
+export default EventComponent;
 
-// "use client";
-// import { useState } from "react";
+// import Image from "next/image";
 
-// export default function Apply() {
-//   const [formData, setFormData] = useState({
-//     name: "",
-//     email: "",
-//     phone: "",
-//     school: "",
-//     faculty: "",
-//     grade: "",
-//     more: "",
-//   });
-
-//   const handleChange = (
-//     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-//   ) => {
-//     setFormData({ ...formData, [e.target.name]: e.target.value });
-//   };
-//   const handleSubmit = async () => {
-//     const { name, email, phone, school, faculty, grade, more } = formData;
-//     if (!name || !email || !phone || !school || !faculty || !grade || !more)
-//       return alert("Please fill all fields!");
-
-//     try {
-//       const response = await fetch("/api/apply", {
-//         method: "POST",
-//         headers: { "Content-Type": "application/json" },
-//         body: JSON.stringify({
-//           name,
-//           email,
-//           phone,
-//           school,
-//           faculty,
-//           grade,
-//           more,
-//         }),
-//       });
-
-//       const data = await response.json();
-//       if (response.ok) {
-//         alert("Successfully subscribed!");
-//         setFormData({
-//           name: "",
-//           email: "",
-//           phone: "",
-//           school: "",
-//           faculty: "",
-//           grade: "",
-//           more: "",
-//         });
-//       } else {
-//         alert(data.error);
-//       }
-//     } catch (error) {
-//       alert("Something went wrong.");
-//     }
-//   };
+// function EventComponent({
+//   title,
+//   presenter,
+//   date,
+//   time,
+//   description,
+//   poster,
+// }: EventProps) {
 //   return (
-//     <div className="bg-[#231e2f] flex flex-row justify-center w-full">
-//       <div className="bg-[#231e2f] overflow-hidden w-[1440px] h-[1572px] relative">
-//         <div className="absolute w-[1308px] h-[1130px] top-[20px] left-[66px]">
-//           <div className="absolute w-[1308px] h-[1066px] top-[20px] left-0 bg-[#0000004c] rounded-[30px]">
-//             <img
-//               className="absolute w-[298px]  md:w-[605px] md:h-[947px] top-8 md:left-[30px] "
-//               alt="Banner"
-//               src="/apply/Banner.jpeg"
+//     <div className="flex justify-center">
+//       <div className="flex w-[90%] h-192 md:h-96">
+//         <div className="md:border-r-2 border-t-2 w-full absolute md:w-auto md:flex md:h-full border-[#df9404] items-center justify-center md:relative">
+//           {" "}
+//           {/* left line */}
+//           <div className="absolute text-white z-10 px-4 py-1 bg-[#231E2F]">
+//             {date}
+//           </div>
+//           {/* Adjusted dot positioning */}
+//           <div className="absolute left-0 top-0 w-3 h-3 ml-[0.5px] bg-[#df9404] rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+//         </div>
+//         <div className="flex flex-col">
+//           <div className="w-1/2 md:w-auto flex flex-row md:flex-col items-center justify-center w-full h-full bg-[#231E2F] text-white space-x-10">
+//             <Image
+//               src={`${poster}`}
+//               alt={`${poster}`}
+//               width={230}
+//               height={230}
+//               className=" w-[109px] h-[158px]"
 //             />
-
-//             <div className="absolute md:w-[595px] w-[343px] h-[456px] left-2 md:h-[994px] top-[501px] md:top-[37px] md:left-[679px] bg-[#231e2f] rounded-[30px] shadow-[0px_4px_4px_#00000040]">
-//               <div className="absolute w-[526px] h-[49px] top-[129px] left-[35px]">
-//                 <div className="relative w-[524px] h-[49px] bg-[#ddd9d2] rounded-[25px]">
-//                   <img
-//                     className="absolute w-9 h-9 top-1.5 left-[26px] object-cover"
-//                     alt="Name icon"
-//                     src="/apply/nameIcon.png"
-//                   />
-//                   <input
-//                     type="text"
-//                     name="name"
-//                     value={formData.name}
-//                     onChange={handleChange}
-//                     placeholder="İsminizi ve Soyisminizi Giriniz"
-//                     className="pl-20 ml-4 w-full h-full bg-transparent text-[#0b338b] text-base font-semibold outline-none placeholder-[#0b338b]"
-//                   />
-//                 </div>
-//               </div>
-
-//               <div className="absolute w-[526px] h-[49px] top-[215px] left-[35px]">
-//                 <div className="relative w-[524px] h-[49px] bg-[#ddd9d2] rounded-[25px]">
-//                   <img
-//                     className="absolute w-9 h-9 top-1.5 left-[26px] object-cover"
-//                     alt="University icon"
-//                     src="/apply/universityIcon.png"
-//                   />
-//                   <input
-//                     type="text"
-//                     name="school"
-//                     value={formData.school}
-//                     onChange={handleChange}
-//                     placeholder="Okulunuzun Adını Giriniz"
-//                     className="pl-20 ml-4 w-full h-full bg-transparent text-[#0b338b] text-base font-semibold outline-none placeholder-[#0b338b]"
-//                   />
-//                 </div>
-//               </div>
-
-//               <div className="absolute w-[526px] h-[249px] top-[644px] left-[35px]">
-//                 <div className="relative w-[524px] h-[249px] bg-[#ddd9d2] rounded-[25px]">
-//                   <div className="absolute w-[339px] h-[38px] top-[11px] left-[73px] [font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#0b338b] text-base tracking-[0] leading-[normal]">
-//                     Etkinliğimizi Nereden Duydunuz?
-//                   </div>
-
-//                   <img
-//                     className="absolute w-9 h-9 top-3 left-[26px] object-cover"
-//                     alt="Message icon"
-//                     src="/apply/messageIcon.png"
-//                   />
-//                   <textarea
-//                     name="more"
-//                     value={formData.more}
-//                     onChange={handleChange}
-//                     className="mt-4 w-full h-32 bg-transparent text-[#0b338b] text-base font-semibold outline-none placeholder-[#0b338b] resize-none px-8 py-10  rounded-lg"
-//                   />
-//                 </div>
-//                 <button
-//                   className="bg-blue-600 mx-30 my-2 px-2 py-2 rounded text-white items-center"
-//                   onClick={handleSubmit}
-//                 >
-//                   Kayıt Ol
-//                 </button>
-//               </div>
-
-//               <div className="absolute w-[526px] h-[50px] top-[292px] left-[35px]">
-//                 <div className="relative w-[524px] h-[50px] bg-[#ddd9d2] rounded-[25px]">
-//                   <img
-//                     className="absolute w-9 h-9 top-1.5 left-[26px] object-cover"
-//                     alt="Department icon"
-//                     src="/apply/departmentIcon.png"
-//                   />
-//                   <input
-//                     type="text"
-//                     name="faculty"
-//                     value={formData.faculty}
-//                     onChange={handleChange}
-//                     placeholder="Bölümünüzü Giriniz"
-//                     className="pl-20 ml-4 w-full h-full bg-transparent text-[#0b338b] text-base font-semibold outline-none placeholder-[#0b338b]"
-//                   />
-//                 </div>
-//               </div>
-
-//               <div className="absolute w-[526px] h-[50px] top-[379px] left-[35px]">
-//                 <div className="relative w-[524px] h-[50px] bg-[#ddd9d2] rounded-[25px]">
-//                   <img
-//                     className="absolute w-9 h-9 top-[7px] left-[26px] object-cover"
-//                     alt="Grade icon"
-//                     src="/apply/gradeIcon.png"
-//                   />
-//                   <input
-//                     type="text"
-//                     name="grade"
-//                     value={formData.grade}
-//                     onChange={handleChange}
-//                     placeholder="Sınıfınızı Giriniz"
-//                     className="pl-20 ml-4 w-full h-full bg-transparent text-[#0b338b] text-base font-semibold outline-none placeholder-[#0b338b]"
-//                   />
-//                 </div>
-//               </div>
-
-//               <div className="absolute w-[526px] h-[50px] top-[466px] left-[35px]">
-//                 <div className="relative w-[524px] h-[50px] bg-[#ddd9d2] rounded-[25px]">
-//                   <img
-//                     className="absolute w-9 h-9 top-1.5 left-[26px] object-cover"
-//                     alt="Email icon"
-//                     src="/apply/emailIcon.png"
-//                   />
-//                   <input
-//                     type="text"
-//                     name="email"
-//                     value={formData.email}
-//                     onChange={handleChange}
-//                     placeholder="E-mail Adresinizi Giriniz"
-//                     className="pl-20 ml-4 w-full h-full bg-transparent text-[#0b338b] text-base font-semibold outline-none placeholder-[#0b338b]"
-//                   />
-//                 </div>
-//               </div>
-
-//               <div className="absolute w-[526px] h-[50px] top-[553px] left-[35px]">
-//                 <div className="relative w-[524px] h-[50px] bg-[#ddd9d2] rounded-[25px]">
-//                   <img
-//                     className="absolute w-9 h-9 top-1.5 left-[26px] object-cover"
-//                     alt="Phone number icon"
-//                     src="/apply/phoneNumberIcon.png"
-//                   />
-//                   <input
-//                     type="text"
-//                     name="phone"
-//                     value={formData.phone}
-//                     onChange={handleChange}
-//                     placeholder="Telefon Numaranızı Giriniz"
-//                     className="pl-20 ml-4 w-full h-full bg-transparent text-[#0b338b] text-base font-semibold outline-none placeholder-[#0b338b]"
-//                   />
-//                 </div>
-//               </div>
-
-//               <div className="absolute w-[537px] h-[102px] top-[3px] left-[30px]">
-//                 <div className="relative w-[541px] h-[102px] left-[-3px]">
-//                   <div className="absolute w-[524px] h-[102px] top-0 left-2 [font-family:'Montserrat-ExtraBold',Helvetica] font-extrabold text-white text-[32px] text-center tracking-[0] leading-[normal]">
-//                     ETKİNLİĞE BAŞVURU FORMU
-//                   </div>
-
-//                   <img
-//                     className="w-[541px] h-[7px] top-[88px] left-0 absolute object-cover"
-//                     alt="Line"
-//                     src="/apply/line 25.png"
-//                   />
-//                 </div>
-//               </div>
+//             <div className="w-1/2 md:w-auto flex flex-col space-y-2 md:w-[70%]">
+//               <h1 className="flex text-md md:text-4xl text-[#df0447]">
+//                 {title}
+//               </h1>
+//               <h2 className="text-sm md:text-2xl text-[#df9404]">
+//                 {presenter}
+//               </h2>
+//               <h3 className="text-sm md:text-xl opacity-70">
+//                 {date} - {time}
+//               </h3>
 //             </div>
 //           </div>
-
-//           {/* <img
-//             className="absolute w-[542px] h-[139px] top-0 left-[383px] object-cover"
-//             alt="Medeniyet teknoloji"
-//             // src={medeniyetTeknolojiGunleri1}
-//           /> */}
+//           <div className="flex flex-col text-center justify-center">
+//             <p className="text-sm text-center">{description}</p>
+//             <button className="justify-center bg-[#1b62ff] text-white w-[200px] py-3 px-3 rounded-full self-end">
+//               Başvur
+//             </button>
+//           </div>
 //         </div>
 //       </div>
 //     </div>
 //   );
 // }
+
+// export default EventComponent;

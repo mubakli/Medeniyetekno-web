@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Carousel() {
   return (
-    <div className="w-full relative">
+    <div className="w-full  relative">
       <Swiper
         slidesPerView={1}
         modules={[Autoplay, Navigation]} // Use the Autoplay and Navigation modules

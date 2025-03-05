@@ -1,30 +1,5 @@
 import React from "react";
 
-// import linkedin13 from "./linkedin-1-3.png";
-// import linkedin14 from "./linkedin-1-4.png";
-// import linkedin15 from "./linkedin-1-5.png";
-// import linkedin16 from "./linkedin-1-6.png";
-// import linkedin17 from "./linkedin-1-7.png";
-// import linkedin18 from "./linkedin-1-8.png";
-// import linkedin19 from "./linkedin-1-9.png";
-// import linkedin110 from "./linkedin-1-10.png";
-// import linkedin111 from "./linkedin-1-11.png";
-// import linkedin112 from "./linkedin-1-12.png";
-// import linkedin113 from "./linkedin-1-13.png";
-// import linkedin114 from "./linkedin-1-14.png";
-// import linkedin115 from "./linkedin-1-15.png";
-// import linkedin116 from "./linkedin-1-16.png";
-// import linkedin117 from "./linkedin-1-17.png";
-// import linkedin118 from "./linkedin-1-18.png";
-// import linkedin119 from "./linkedin-1-19.png";
-// import linkedin120 from "./linkedin-1-20.png";
-// import linkedin121 from "./linkedin-1-21.png";
-// import linkedin122 from "./linkedin-1-22.png";
-// import linkedin1 from "./linkedin-1.png";
-// import logoBg from "./logo-bg.png";
-// import logowhite1 from "./logowhite-1.png";
-// import menu1 from "./menu-1.png";
-
 export default function AboutMobileLayout() {
   return (
     <div className="bg-[#231e2f] flex flex-row justify-center w-full">
