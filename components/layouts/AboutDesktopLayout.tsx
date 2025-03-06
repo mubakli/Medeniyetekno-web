@@ -272,7 +272,7 @@ export default function AboutDesktopLayout() {
                 />
               </div>
 
-              <div className="absolute w-[254px] h-[321px] top-[1487px] left-[23px]">
+              {/* <div className="absolute w-[254px] h-[321px] top-[1487px] left-[23px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
                 <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
                   <img
@@ -301,7 +301,7 @@ export default function AboutDesktopLayout() {
                   alt="Linkedin"
                   src="/linkedin.png"
                 />
-              </div>
+              </div> */}
 
               <div className="absolute w-[254px] h-[321px] top-[1843px] left-[23px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
@@ -680,10 +680,10 @@ export default function AboutDesktopLayout() {
                 />
               </div>
 
-              <div className="absolute w-[306px] h-[321px] top-[1131px] left-[981px]">
+              {/* <div className="absolute w-[306px] h-[321px] top-[1131px] left-[981px]">
                 <div className="left-[50px] absolute  w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
                 <div className="absolute  left-[50px] w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
-                  {/* need to larger image */}
+                
                   <img
                     src="/members/aleyna.jpg"
                     alt="Circle image"
@@ -710,7 +710,7 @@ export default function AboutDesktopLayout() {
                   alt="Linkedin"
                   src="/linkedin.png"
                 />
-              </div>
+              </div> */}
 
               <div className="absolute w-[306px] h-[321px] top-[2199px] left-[981px]">
                 <div className="left-[50px] absolute w-[200px] h-[200px] top-0 bg-[#d9d9d9] rounded-[100px]" />
@@ -772,7 +772,7 @@ export default function AboutDesktopLayout() {
                 />
               </div>
 
-              <div className="absolute w-[254px] h-[321px] top-[1843px] left-[1007px]">
+              {/* <div className="absolute w-[254px] h-[321px] top-[1843px] left-[1007px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
                   <img
@@ -800,7 +800,7 @@ export default function AboutDesktopLayout() {
                   alt="Linkedin"
                   src="/linkedin.png"
                 />
-              </div>
+              </div> */}
 
               <div className="absolute w-[254px] h-[321px] top-0 left-[929px]">
                 <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">

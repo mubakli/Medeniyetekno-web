@@ -9,8 +9,8 @@ function EventComponent({
   poster,
 }: EventProps) {
   return (
-    <div className="md:flex justify-center">
-      <div className="flex w-full h-auto lg:w-[90%] md:h-96 border-b-2 border-t-2 border-[#df9404]">
+    <div className="flex justify-center">
+      <div className="flex w-full h-auto md:w-[90%] lg:h-96 border-b-2 border-t-2 border-[#df9404]">
         <div className="flex items-center justify-center w-full h-full bg-[#231E2F] text-white space-x-10">
           <div className="flex flex-col space-y-2 w-[70%]">
             <h1 className="text-2xl md:text-4xl text-[#df0447]">{title}</h1>
