@@ -25,13 +25,13 @@ function EventComponent({
           <div className="flex flex-row ">
             <div className="  flex items-center justify-center w-full h-full bg-[#231E2F] text-white space-x-10">
               <div className="w-1/2 md:w-auto flex flex-col space-y-2 w-[70%]">
-                <h1 className="pb-5 md:pb-0 text-2xl md:text-4xl text-[#df0447]">
+                <h1 className="pb-5 md:pb-0 text-xl md:text-2xl md:text-4xl text-[#df0447]">
                   {title}
                 </h1>
-                <h2 className="pb-5 md:pb-0 text-xl md:text-2xl text-[#df9404]">
+                <h2 className="pb-5 md:pb-0 text-md md:text-xl md:text-2xl text-[#df9404]">
                   {presenter}
                 </h2>
-                <h3 className="pb-5 md:pb-0 text-md md:text-xl opacity-70">
+                <h3 className="pb-5 md:pb-0 text-sm md:text-md md:text-xl opacity-70">
                   {date} - {time}
                 </h3>
                 <div className="hidden md:block">

@@ -14,14 +14,14 @@ const montserrat = Montserrat({
 function EventsPage() {
   return (
     <div className={`${montserrat.className} px-[5%]`}>
-      <div className="h-12 text-[#1b62ff] text-[40px] font-bold mb-5">
+      <div className="h-12 text-3xl text-[#1b62ff] md:text-[40px] font-bold mb-5">
         SON ETKİNLİKLER
       </div>
       <Carousel />
       <div className="h-12 text-[#1b62ff] text-[40px] font-bold mt-5">
         ETKİNLİKLER
       </div>
-      <div className="h-12 mb-4 mt-5">
+      <div className="h-12 mb-20 mt-5">
         <span className="text-[#df9404] text-[28px] font-light font-['Montserrat'] underline">
           Geleceği Şekillendirmeye
         </span>
@@ -31,12 +31,12 @@ function EventsPage() {
         <span className="text-[#1b62ff] text-[28px] font-medium font-['Montserrat']">
           MedeniyeTekno
         </span>
-        <span className="text-[#df9404] text-[28px] font-light font-['Montserrat']">
+        <span className="mb-10 text-[#df9404] text-[28px] font-light font-['Montserrat']">
           {" "}
           ile Başla!
         </span>
       </div>
-      <div className="my-5 py-10">
+      <div className="my-5 py-20">
         <EventComponentLE
           title="MTG 9"
           presenter="Çeşitli Katılımcılar"
