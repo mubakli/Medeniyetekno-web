@@ -1,5 +1,6 @@
 interface MemberProps {
   name: string;
+  surname: string;
   mail: string;
   image: string;
   title: string;
@@ -9,6 +10,7 @@ interface MemberProps {
 
 function MemberComponent({
   name,
+  surname,
   mail,
   image,
   title,
@@ -16,29 +18,33 @@ function MemberComponent({
   imgOps,
 }: MemberProps) {
   return (
-    <div className="relative flex flex-col items-center justify-center w-auto h-auto">
-      {/* Image container centered */}
-      <div className="w-48 h-48 bg-[#d9d9d9] rounded-full flex items-center justify-center">
+    <div className="relative flex flex-col items-center justify-center w-full max-w-xs mx-auto">
+      {/* Image */}
+      <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 bg-[#d9d9d9] rounded-full flex items-center justify-center overflow-hidden">
         <img
           src={`/members/${image}.jpg`}
-          alt="Circle image"
+          alt={`${name}'s profile`}
           className={`w-full h-full object-cover rounded-full object-[${imgOps}]`}
         />
       </div>
 
-      {/* Text content */}
-      <div className="w-full h-auto text-center mt-2">
-        <div className="font-bold text-white text-xl">{name}</div>
-        <div className="font-normal text-[#df0447] text-sm">{mail}</div>
-        <div className="font-extrabold text-[#df9404] text-sm">{title}</div>
+      {/* Text Content */}
+      <div className="w-full text-center mt-3 space-y-1 sm:space-y-2">
+        <p className="text-xs sm:text-base font-extrabold text-[#df9404]">
+          {title}
+        </p>
+
+        <p className="text-xs sm:text-sm font-normal text-[#df0447]">{mail}</p>
+        <h3 className="text-xs sm:text-xl font-bold text-white">{name}</h3>
+        <h3 className="text-xs sm:text-xl font-bold text-white">{surname}</h3>
       </div>
 
-      {/* LinkedIn icon */}
-      <div className="flex justify-center items-center mt-4">
+      {/* LinkedIn Icon */}
+      <div className="mt-3">
         <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
           <img
-            className="w-8 h-8 object-cover"
-            alt="Linkedin"
+            className="w-6 h-6 sm:w-8 sm:h-8"
+            alt="LinkedIn"
             src="/linkedin.png"
           />
         </a>

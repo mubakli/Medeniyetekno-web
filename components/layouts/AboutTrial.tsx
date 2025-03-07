@@ -15,9 +15,9 @@ export default function AboutTrial() {
             </div>
           </div>
 
-          <img className="flex  h-1  " alt="Line" src="/Line2.png" />
+          {/* <img className="flex  h-1  " alt="Line" src="/Line2.png" /> */}
 
-          <div className="mt-10 flex text-4xl flex-col md:flex-row justify-between h-full">
+          <div className="mt-10 flex  md:text-4xl flex-col md:flex-row justify-between h-full">
             {/* Right Content */}
             <div className="md:w-1/4 flex justify-center mx-10 items-center md:ml-20">
               <p className=" mb-5  [font-family:'Montserrat-Bold',Helvetica] font-normal text-transparent text-base text-center tracking-[0] leading-[normal]">
@@ -66,7 +66,7 @@ export default function AboutTrial() {
             {/* Left Contenr */}
             <div className="md:w-1/4 mb-5 flex justify-center mx-10 items-center md:mr-20">
               <p className="   [font-family:'Montserrat-Medium',Helvetica] font-normal text-transparent text-base text-center tracking-[0] leading-[normal]">
-                <span className="font-medium text-white">
+                <span className="font-medium  text-white">
                   Kurulduğu günden bu yana bu vizyonunu koruyan MedeniyeTekno;
                   geçtiğimiz yıllarda{" "}
                 </span>
@@ -109,7 +109,7 @@ export default function AboutTrial() {
                 EKİBİMİZ
               </div>
 
-              <img className="flex  h-1 " alt="Line" src="/Line2.png" />
+              {/* <img className="flex  h-1 " alt="Line" src="/Line2.png" /> */}
 
               <div className="justify-center items-center">
                 <div className="justify-center items-center mt-10 mb-10 flex flex-col lg:flex-row lg:space-x-20">
@@ -117,7 +117,8 @@ export default function AboutTrial() {
                     <div className="flex">
                       <MemberComponent
                         title="KLÜP BAŞKANI"
-                        name="RABİA ECE SERT"
+                        name="RABİA ECE"
+                        surname="SERT"
                         image="ece2"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -127,7 +128,8 @@ export default function AboutTrial() {
                     <div className="flex">
                       <MemberComponent
                         title="KLÜP BAŞKAN YARDIMCISI"
-                        name="YAREN ÇİĞDEM"
+                        name="YAREN"
+                        surname="ÇİĞDEM"
                         image="yaren"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -140,7 +142,8 @@ export default function AboutTrial() {
                     <div className="flex">
                       <MemberComponent
                         title="KLÜP DANIŞMANI"
-                        name="M.SİNAN BAŞARSLAN"
+                        name="M.SİNAN"
+                        surname="BAŞARSLAN"
                         image="sinan"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -151,11 +154,12 @@ export default function AboutTrial() {
                 </div>
 
                 <div className="relative justify-center items-center ">
-                  <div className=" grid grid-cols-2 lg:grid-cols-4 gap-4 ">
+                  <div className=" grid grid-cols-2 lg:grid-cols-4 gap-0 ">
                     <div className="p-10 lg:border-l lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SOSYAL MEDYA EKİP LİDERİ"
-                        name="ASLI AKYÜZ"
+                        name="ASLI"
+                        surname="AKYÜZ"
                         image="aslı"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -165,7 +169,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="ETKİNLIK&PR EKİP ÜYESİ"
-                        name="BURAK ASARCIKLI"
+                        name="BURAK"
+                        surname="ASARCIKLI"
                         image="PHOTO"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -175,7 +180,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SPONSORLUK EKİP LİDERİ"
-                        name="SELİM GENÇ"
+                        name="SELİM"
+                        surname="GENÇ"
                         image="selim"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -185,7 +191,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="İLETİŞİM EKİP LİDERİ"
-                        name="AZRA ÖYKU ULUKAN"
+                        name="AZRA ÖYKU"
+                        surname="ULUKAN"
                         image="azra"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -195,7 +202,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-l lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SOSYAL MEDYA EKİP ÜYESİ"
-                        name="KEREM YILMAZ"
+                        name="KEREM "
+                        surname="YILMAZ"
                         image="kerem2"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -205,7 +213,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="ETKİNLIK&PR EKİP ÜYESİ"
-                        name="SEMİH BEKDAŞ"
+                        name="SEMİH"
+                        surname="BEKDAŞ"
                         image="semih"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -215,7 +224,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SPONSORLUK EKİP ÜYESİ"
-                        name="BATUHAN BAŞ"
+                        name="BATUHAN"
+                        surname="BAŞ"
                         image="batuhan"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -225,7 +235,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="İLETİŞİM EKİP ÜYSESİ"
-                        name="YUNUS EMRE BOZTEPE"
+                        name="YUNUS EMRE"
+                        surname="BOZTEPE"
                         image="yunus"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -235,7 +246,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-l lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SOSYAL MEDYA EKİP ÜYESİ"
-                        name="RAVZA ERTEMUR"
+                        name="RAVZA"
+                        surname="ERTEMUR"
                         image="ravza"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -245,7 +257,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="ETKİNLIK&PR EKİP ÜYESİ"
-                        name="SALİH KERİM ASLAN"
+                        name="SALİH KERİM"
+                        surname="ASLAN"
                         image="salih"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -255,7 +268,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SPONSORLUK EKİP ÜYESİ"
-                        name="MUHAMMET FURKAN YOLAL"
+                        name="M. FURKAN"
+                        surname="YOLAL"
                         image="furkan"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -265,7 +279,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="İLETİŞİM EKİP ÜYSESİ"
-                        name="YUSUF UZUN"
+                        name="YUSUF"
+                        surname="UZUN"
                         image="yusuf"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -275,7 +290,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-l lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SOSYAL MEDYA EKİP ÜYESİ"
-                        name="ZEYNEP SARI"
+                        name="ZEYNEP"
+                        surname="SARI"
                         image="zeynep"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -285,7 +301,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="ETKİNLIK&PR EKİP ÜYESİ"
-                        name="SARUHAN TÜRKÖZ"
+                        name="SARUHAN"
+                        surname="TÜRKÖZ"
                         image="saruhan"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -295,7 +312,8 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SPONSORLUK EKİP ÜYESİ"
-                        name="SETENAY TEN ÖZYURTLU"
+                        name="SETENAY TEN"
+                        surname="ÖZYURTLU"
                         image="setenay"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
@@ -305,19 +323,21 @@ export default function AboutTrial() {
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="İLETİŞİM EKİP ÜYSESİ"
-                        name="AHMED FARUK ER"
+                        name="AHMED FARUK"
+                        surname="ER"
                         image="ahmed"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
                         imgOps="50%_90%"
                       ></MemberComponent>
                     </div>
-                    <div className="p-10 lg:border-l lg:border-r lg:border-[#df9404]"></div>
-                    <div className="p-10 lg:border-r lg:border-[#df9404]"></div>
+                    <div className=" lg:border-l lg:border-r lg:border-[#df9404]"></div>
+                    <div className=" lg:border-r lg:border-[#df9404]"></div>
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
                         title="SPONSORLUK EKİP ÜYESİ"
-                        name="ÖMER FARUK ALTINOVA"
+                        name="ÖMER FARUK"
+                        surname="ALTINOVA"
                         image="ömer"
                         mail="mail@mail.com"
                         linkedinUrl="linkedln.com"
