@@ -111,7 +111,7 @@ export default function AboutTrial() {
 
               <img className="flex  h-1 " alt="Line" src="/Line2.png" />
 
-              <div className="">
+              <div className="mb-20">
                 <div className="justify-center items-center mt-10 mb-10 flex flex-col lg:flex-row lg:space-x-20">
                   <div className="flex flex-row justify-center space-x-5 md:space-x-10">
                     <div className="flex ml-6 md:ml-0">
@@ -234,7 +234,7 @@ export default function AboutTrial() {
                     </div>
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
-                        title="İLETİŞİM EKİP ÜYSESİ"
+                        title="İLETİŞİM EKİP ÜYESİ"
                         name="YUNUS EMRE"
                         surname="BOZTEPE"
                         image="yunus"
@@ -278,7 +278,7 @@ export default function AboutTrial() {
                     </div>
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
-                        title="İLETİŞİM EKİP ÜYSESİ"
+                        title="İLETİŞİM EKİP ÜYESİ"
                         name="YUSUF"
                         surname="UZUN"
                         image="yusuf"
@@ -322,7 +322,7 @@ export default function AboutTrial() {
                     </div>
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
                       <MemberComponent
-                        title="İLETİŞİM EKİP ÜYSESİ"
+                        title="İLETİŞİM EKİP ÜYESİ"
                         name="AHMED FARUK"
                         surname="ER"
                         image="ahmed"

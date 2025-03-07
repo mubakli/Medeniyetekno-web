@@ -42,7 +42,7 @@ function EventsPage() {
           presenter="Çeşitli Katılımcılar"
           date="19/12/2024"
           time="12:30"
-          description="Açıklama - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          description={`9 Aralık 2024'te MedeniyeTekno öğrenci topluluğu olarak MTG-9 konferansımızı üniversitemiz Ziraat Bankası Kütüphanesi Hasan Polatkan Konferans Salonu'nda gerçekleştirdik. Smartpro, Turkcell, Codeway ve TurkTelekom'dan konuşmacılarımızın yer aldığı 4 farklı oturumda yapay zeka, veri bilimi, yazılım kariyeri ve test mühendisliği konularında bilgi ve deneyimler paylaşıldı. Çark çekilişi ve yarışmalarla renklenen etkinlik, soru-cevap bölümüyle sonlandı. Tüm katılımcılara teşekkür ederiz.`}
           poster="/mtg9-poster.jpeg"
         />
         <EventComponentR
@@ -50,7 +50,7 @@ function EventsPage() {
           presenter="İlhan Furkan Sadıkoğlu"
           date="03/12/2024"
           time="15:00"
-          description="Açıklama - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          description={`MedeniyeTekno topluluğu olarak, 3 Aralık 2024’te “Kriptoloji 101” konferansını gerçekleştirdik. Konferansın konuşmacısı, Bilgisayar Mühendisliği bölümümüz mezunlarından ve DevOps Engineer olarak görev yapan Sayın İlhan Furkan Sadıkoğlu, Kriptolojinin tarihi gelişimi ve günümüzdeki uygulamalarına değinerek bu alandaki köklü değişiklikleri ve teknolojik ilerlemeleri katılımcılarımızla paylaştı. Katılımcılarımızın sorularıyla konferansımız verimli ve keyifli bir şekilde son buldu.`}
           poster="/kriptoloji-poster.jpeg"
         />
         <EventComponentLS
@@ -58,7 +58,7 @@ function EventsPage() {
           presenter="Alperen İnci"
           date="28/11/2024"
           time="15:00"
-          description="Açıklama - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          description={`Medeniyet Tekno Kulübü olarak 28 Kasım 2024’te “Finans Teknolojilerinde Yazılım” konulu "FinTech 101" etkinliğini gerçekleştirdik. SoftRobotics’te Software Engineer olarak çalışan mezunlarımızdan Alperen İnci, FinTech’te yazılımın önemi, Postman ile API entegrasyonu, .NET web servisleri ve sanal post entegrasyonu gibi konularda deneyimlerini bizimle paylaştı. Postman, 3D Secure, ödeme geçitleri ve sanal cüzdan projelerine de değinilen etkinlik, soru-cevap bölümü ve hediye takdimleriyle sonlandı.`}
           poster="/fintech-poster.jpeg"
         />
       </div>

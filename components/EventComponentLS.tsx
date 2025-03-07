@@ -48,7 +48,7 @@ function EventComponent({
                 </h3>
                 <div className="hidden md:block">
                   <p>{description}</p>
-                  <button className="bg-[#1b62ff] text-white w-[200px] py-3 px-3  rounded-full self-end">
+                  <button className=" bg-gray-500 text-white w-[200px] mt-10 py-3 px-3  rounded-full self-end">
                     Başvur
                   </button>
                 </div>
