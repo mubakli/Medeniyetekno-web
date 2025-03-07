@@ -15,7 +15,7 @@ export default function AboutTrial() {
             </div>
           </div>
 
-          {/* <img className="flex  h-1  " alt="Line" src="/Line2.png" /> */}
+          <img className="flex  h-1  " alt="Line" src="/Line2.png" />
 
           <div className="mt-10 flex  md:text-4xl flex-col md:flex-row justify-between h-full">
             {/* Right Content */}
@@ -109,12 +109,12 @@ export default function AboutTrial() {
                 EKİBİMİZ
               </div>
 
-              {/* <img className="flex  h-1 " alt="Line" src="/Line2.png" /> */}
+              <img className="flex  h-1 " alt="Line" src="/Line2.png" />
 
-              <div className="justify-center items-center">
+              <div className="">
                 <div className="justify-center items-center mt-10 mb-10 flex flex-col lg:flex-row lg:space-x-20">
-                  <div className="flex flex-row justify-center space-x-20">
-                    <div className="flex">
+                  <div className="flex flex-row justify-center space-x-5 md:space-x-10">
+                    <div className="flex ml-6 md:ml-0">
                       <MemberComponent
                         title="KLÜP BAŞKANI"
                         name="RABİA ECE"
