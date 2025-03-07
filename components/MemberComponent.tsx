@@ -4,6 +4,7 @@ interface MemberProps {
   image: string;
   title: string;
   linkedinUrl: string;
+  imgOps: string;
 }
 
 function MemberComponent({
@@ -12,40 +13,38 @@ function MemberComponent({
   image,
   title,
   linkedinUrl,
+  imgOps,
 }: MemberProps) {
   return (
-    <div className="absolute w-[254px] h-[321px] top-[775px] left-[351px]">
-      <div className="absolute w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]" />
-      <div className="absolute  w-[200px] h-[200px] top-0 left-6 bg-[#d9d9d9] rounded-[100px]">
+    <div className="relative flex flex-col items-center justify-center w-auto h-auto">
+      {/* Image container centered */}
+      <div className="w-48 h-48 bg-[#d9d9d9] rounded-full flex items-center justify-center">
         <img
           src={`/members/${image}.jpg`}
           alt="Circle image"
-          className="w-full h-full object-cover rounded-full object-[50%_10%]"
+          className={`w-full h-full object-cover rounded-full object-[${imgOps}]`}
         />
       </div>
 
-      <div className="absolute w-[248px] h-[83px] top-52 left-0">
-        <div className="absolute w-[248px] h-[33px] top-[26px] left-0 [font-family:'Montserrat-Bold',Helvetica] font-bold text-white text-xl text-center tracking-[0] leading-[normal]">
-          {name}
-        </div>
-
-        <div className="left-0 absolute w-[248px] h-[33px] top-[50px] [font-family:'Montserrat-Regular',Helvetica] font-normal text-[#df0447] text-[15px] text-center tracking-[0] leading-[normal]">
-          {mail}
-        </div>
-
-        <div className="absolute w-[248px] h-[33px] top-0 left-0 [font-family:'Montserrat-ExtraBold',Helvetica] font-extrabold text-[#df9404] text-[15px] text-center tracking-[0] leading-[normal]">
-          {title}
-        </div>
+      {/* Text content */}
+      <div className="w-full h-auto text-center mt-2">
+        <div className="font-bold text-white text-xl">{name}</div>
+        <div className="font-normal text-[#df0447] text-sm">{mail}</div>
+        <div className="font-extrabold text-[#df9404] text-sm">{title}</div>
       </div>
 
-      <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
-        <img
-          className="absolute w-[30px] h-[30px] top-[291px] left-[109px] object-cover"
-          alt="Linkedin"
-          src="/linkedin.png"
-        />
-      </a>
+      {/* LinkedIn icon */}
+      <div className="flex justify-center items-center mt-4">
+        <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
+          <img
+            className="w-8 h-8 object-cover"
+            alt="Linkedin"
+            src="/linkedin.png"
+          />
+        </a>
+      </div>
     </div>
   );
 }
+
 export default MemberComponent;
