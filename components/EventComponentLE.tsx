@@ -18,7 +18,7 @@ function EventComponent({
             {date}
           </div>
           {/* Adjusted dot positioning */}
-          <div className="absolute left-0 top-0 w-3 h-3 ml-[0.5px] bg-[#df9404] rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+          {/* <div className="absolute left-0 top-0 w-3 h-3 ml-[0.5px] bg-[#df9404] rounded-full -translate-x-1/2 -translate-y-1/2"></div> */}
         </div>
 
         <div className="pt-8 pl-8 md:pb-0 md:pt-0 mb-10 flex flex-col">
