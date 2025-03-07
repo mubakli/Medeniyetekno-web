@@ -1,7 +1,6 @@
 interface MemberProps {
   name: string;
   surname: string;
-  mail: string;
   image: string;
   title: string;
   linkedinUrl: string;
@@ -11,7 +10,6 @@ interface MemberProps {
 function MemberComponent({
   name,
   surname,
-  mail,
   image,
   title,
   linkedinUrl,
@@ -34,7 +32,6 @@ function MemberComponent({
           {title}
         </p>
 
-        <p className="text-xs sm:text-sm font-normal text-[#df0447]">{mail}</p>
         <h3 className="text-xs sm:text-xl font-bold text-white">{name}</h3>
         <h3 className="text-xs sm:text-xl font-bold text-white">{surname}</h3>
       </div>

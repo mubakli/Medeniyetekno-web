@@ -116,23 +116,21 @@ export default function AboutTrial() {
                   <div className="flex flex-row justify-center space-x-5 md:space-x-10">
                     <div className="flex ml-6 md:ml-0">
                       <MemberComponent
-                        title="KLÜP BAŞKANI"
+                        title="KULÜP BAŞKANI"
                         name="RABİA ECE"
                         surname="SERT"
                         image="ece2"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/rabia-ece-sert-5750b4251/"
                         imgOps="50%_10%"
                       />
                     </div>
                     <div className="flex">
                       <MemberComponent
-                        title="KLÜP BAŞKAN YARDIMCISI"
+                        title="KULÜP BAŞKAN YARDIMCISI"
                         name="YAREN"
                         surname="ÇİĞDEM"
                         image="yaren"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/yaren-%C3%A7i%C4%9Fdem-69a4ba272/"
                         imgOps="50%_10%"
                       />
                     </div>
@@ -141,12 +139,11 @@ export default function AboutTrial() {
                   <div className="flex justify-center mt-4 md:mt-0">
                     <div className="flex">
                       <MemberComponent
-                        title="KLÜP DANIŞMANI"
+                        title="KULÜP DANIŞMANI"
                         name="M.SİNAN"
                         surname="BAŞARSLAN"
                         image="sinan"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/muhammet-sinan-basarslan/"
                         imgOps="50%_0%"
                       />
                     </div>
@@ -161,8 +158,7 @@ export default function AboutTrial() {
                         name="ASLI"
                         surname="AKYÜZ"
                         image="aslı"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/asl%C4%B1-aky%C3%BCz-106786286/"
                         imgOps="50%_10%"
                       ></MemberComponent>
                     </div>
@@ -172,8 +168,7 @@ export default function AboutTrial() {
                         name="BURAK"
                         surname="ASARCIKLI"
                         image="PHOTO"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/burak-asarcikli"
                         imgOps="50%_30%"
                       ></MemberComponent>
                     </div>
@@ -183,8 +178,7 @@ export default function AboutTrial() {
                         name="SELİM"
                         surname="GENÇ"
                         image="selim"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/selim-gencc/"
                         imgOps="50%_30%"
                       ></MemberComponent>
                     </div>
@@ -194,8 +188,7 @@ export default function AboutTrial() {
                         name="AZRA ÖYKU"
                         surname="ULUKAN"
                         image="azra"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/azra-%C3%B6yk%C3%BC-ulukan/"
                         imgOps="50%_30%"
                       ></MemberComponent>
                     </div>
@@ -205,8 +198,7 @@ export default function AboutTrial() {
                         name="KEREM "
                         surname="YILMAZ"
                         image="kerem2"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/keremy321/"
                         imgOps="50%_50%"
                       ></MemberComponent>
                     </div>
@@ -216,8 +208,7 @@ export default function AboutTrial() {
                         name="SEMİH"
                         surname="BEKDAŞ"
                         image="semih"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/semihbekda%C5%9F/"
                         imgOps="50%_30%"
                       ></MemberComponent>
                     </div>
@@ -227,8 +218,7 @@ export default function AboutTrial() {
                         name="BATUHAN"
                         surname="BAŞ"
                         image="batuhan"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/batuhan-ba%C5%9F-805a69324/"
                         imgOps="50%_0%"
                       ></MemberComponent>
                     </div>
@@ -238,8 +228,7 @@ export default function AboutTrial() {
                         name="YUNUS EMRE"
                         surname="BOZTEPE"
                         image="yunus"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/emre-boztepe-69836b297/"
                         imgOps="50%_90%"
                       ></MemberComponent>
                     </div>
@@ -249,8 +238,7 @@ export default function AboutTrial() {
                         name="RAVZA"
                         surname="ERTEMUR"
                         image="ravza"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/ravza-ertemur-2860a0323/"
                         imgOps="50%_0%"
                       ></MemberComponent>
                     </div>
@@ -260,8 +248,7 @@ export default function AboutTrial() {
                         name="SALİH KERİM"
                         surname="ASLAN"
                         image="salih"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/salih-aslan-9294a6294/"
                         imgOps="50%_50%"
                       ></MemberComponent>
                     </div>
@@ -271,8 +258,7 @@ export default function AboutTrial() {
                         name="M. FURKAN"
                         surname="YOLAL"
                         image="furkan"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/furkan-yolal-0a475832b/"
                         imgOps="50%_60%"
                       ></MemberComponent>
                     </div>
@@ -282,8 +268,7 @@ export default function AboutTrial() {
                         name="YUSUF"
                         surname="UZUN"
                         image="yusuf"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/yusuf-uzun-126b2b2a4/"
                         imgOps="50%_90%"
                       ></MemberComponent>
                     </div>
@@ -293,8 +278,7 @@ export default function AboutTrial() {
                         name="ZEYNEP"
                         surname="SARI"
                         image="zeynep"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/zeynep-sar%C4%B1-008122257/"
                         imgOps="50%_0%"
                       ></MemberComponent>
                     </div>
@@ -304,8 +288,7 @@ export default function AboutTrial() {
                         name="SARUHAN"
                         surname="TÜRKÖZ"
                         image="saruhan"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/saruhan-t%C3%BCrk%C3%B6z-251031294/"
                         imgOps="50%_50%"
                       ></MemberComponent>
                     </div>
@@ -315,9 +298,8 @@ export default function AboutTrial() {
                         name="SETENAY TEN"
                         surname="ÖZYURTLU"
                         image="setenay"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
-                        imgOps="50%_60%"
+                        linkedinUrl="https://www.linkedin.com/in/setenay-ten-%C3%B6zyurt-61484124b/"
+                        imgOps="50%_30%"
                       ></MemberComponent>
                     </div>
                     <div className="p-10 lg:border-r lg:border-[#df9404]">
@@ -326,8 +308,7 @@ export default function AboutTrial() {
                         name="AHMED FARUK"
                         surname="ER"
                         image="ahmed"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/ahmed-faruk-er-81b9562a2/"
                         imgOps="50%_90%"
                       ></MemberComponent>
                     </div>
@@ -339,8 +320,7 @@ export default function AboutTrial() {
                         name="ÖMER FARUK"
                         surname="ALTINOVA"
                         image="ömer"
-                        mail="mail@mail.com"
-                        linkedinUrl="linkedln.com"
+                        linkedinUrl="https://www.linkedin.com/in/omeraltinova/"
                         imgOps="50%_40%"
                       ></MemberComponent>
                     </div>

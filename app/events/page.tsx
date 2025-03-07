@@ -38,7 +38,7 @@ function EventsPage() {
         </span>
       </div>
       <div className="my-5 py-20">
-        <EventComponentRE
+        {/* <EventComponentRE
           title="BİLİMDE KADIN OLMAK"
           presenter="Çeşitli katılımcılar"
           date="15/03/2025"
@@ -46,7 +46,7 @@ function EventsPage() {
           description={`Açılma -  Lorem ipsum dol quae deleniti, harum placeat fugit consequatur voluptatibus possimus reprehenderit debitis. Delectus ea, temporibus rerum incidunt quas tempore qui nesciunt. Minus, facere quasi. Beatae quia suscipit provident, aliquid a vero dicta? Reiciendis aspernatur distinctio, magnam officia nobis repellendus impedit natus unde alias illum pariatur quibusdam id adipisci tenetur sed provident quo! Optio, cumque nemo. Non quidem totam suscipit assumenda cupiditate, iste ducimus aliquid at, culpa, nostrum odit optio ratione eum quaerat soluta.
           `}
           poster="/Banner.jpeg"
-        />
+        /> */}
         <EventComponentLE
           title="MTG 9"
           presenter="Çeşitli Katılımcılar"
