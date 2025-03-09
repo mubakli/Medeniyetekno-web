@@ -56,7 +56,7 @@ function EventComponent({
                 alt="Event Poster"
                 width={230}
                 height={230}
-                className="w-[200px] h-[200px] md:w-[230px] md:h-[230px] cursor-pointer z-10"
+                className="w-[200px] h-[200px] md:w-1/2 md:h-auto cursor-pointer z-10"
                 onClick={() => setIsModalOpen(true)}
               />
             </div>

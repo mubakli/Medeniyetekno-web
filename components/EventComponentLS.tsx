@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useState } from "react";
 
 function EventComponent({
   title,
@@ -8,6 +9,7 @@ function EventComponent({
   description,
   poster,
 }: EventProps) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className="md:flex relative justify-center  ">
       <div className="flex w-[90%]  ">
@@ -34,7 +36,8 @@ function EventComponent({
                 alt={`${poster}`}
                 width={230}
                 height={230}
-                className="w-[200px] h-[200px] md:w-[230px] md:h-[230px]"
+                className="w-[200px] h-[200px] md:w-full md:h-auto cursor-pointer"
+                onClick={() => setIsModalOpen(true)}
               />
               <div className="w-1/2 md:w-auto flex flex-col space-y-2 w-[70%]">
                 <h1 className="pb-5 md:pb-0 text-2xl md:text-4xl text-[#df0447]">
@@ -47,22 +50,46 @@ function EventComponent({
                   {date} - {time}
                 </h3>
                 <div className="hidden md:block">
-                  <p>{description}</p>
-                  <button className=" bg-gray-500 text-white w-[200px] mt-10 py-3 px-3  rounded-full self-end">
-                    Başvur
-                  </button>
+                  <p style={{ whiteSpace: "pre-line" }}>{description}</p>
+                  <div className="flex justify-end w-full">
+                    <button className="bg-gray-500 text-white w-[200px] mt-10 py-3 px-3 rounded-full">
+                      Başvur
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-col block md:hidden">
-            <p className="text-white">{description}</p>
+            <p style={{ whiteSpace: "pre-line" }} className="text-white">
+              {description}
+            </p>
             <button className="bg-[#1b62ff] text-white w-[200px] py-3 px-3 rounded-full self-end">
               Başvur
             </button>
           </div>
         </div>
       </div>
+      {/* Image Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50">
+          <div className="relative">
+            <Image
+              src={poster}
+              alt="Full Image"
+              width={600}
+              height={600}
+              className="w-auto h-auto max-w-full max-h-[80vh] rounded-lg"
+            />
+            <button
+              className="absolute top-2 right-2 bg-gray-900 text-white rounded-full w-8 h-8 flex items-center justify-center"
+              onClick={() => setIsModalOpen(false)}
+            >
+              ✕
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
