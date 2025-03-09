@@ -58,7 +58,7 @@ export default function Apply() {
           <img
             className="w-full rounded-[30px] shadow-lg"
             alt="Banner"
-            src="/Banner.jpeg"
+            src="/apply/Banner.jpeg"
           />
         </div>
       </div>

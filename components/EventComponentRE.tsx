@@ -37,7 +37,7 @@ function EventComponent({
                   {date} - {time}
                 </h3>
                 <div className="hidden md:block">
-                  <p>{description}</p>
+                  <p style={{ whiteSpace: "pre-line" }}>{description}</p>
                   <div className="relative z-10">
                     <Link href="/apply">
                       <button className="bg-blue-500 hover:bg-blue-800 mt-10 text-white w-[200px] py-3 px-3 rounded-full self-end">

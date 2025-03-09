@@ -58,7 +58,7 @@ function Contact() {
       >
         BİZİMLE İLETİŞİME GEÇİN
       </div>
-      <div className=" flex flex-col lg:flex-row justify-center items-center justify-between space-x-10 ">
+      <div className=" flex flex-col lg:flex-row justify-center items-center justify-between md:space-x-10 ">
         <div className="flex flex-col space-y-6 items-end h-auto w-full max-w-[90%] sm:max-w-[450px]">
           <input
             name="name"
@@ -102,10 +102,12 @@ function Contact() {
           )}
         </div>
         <div
-          className="flex flex-col items-center justify-between mt-10 py-36 lg:py-36 h-auto w-full max-w-[50%] lg:max-w-[550px] lg:p-10 bg-cover bg-center lg:bg-top rounded-lg bg-no-repeat"
+          className="flex flex-col items-center justify-between mt-10 py-36 lg:py-36 h-auto w-full md:max-w-[50%] lg:max-w-[550px] lg:p-10 bg-cover bg-center  rounded-lg "
           style={{
             backgroundImage: "url('/logoBg.png')",
             backgroundSize: "contain",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <div className="text-[#df9404] md:text-xl font-bold text-center">
