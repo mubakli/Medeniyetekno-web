@@ -62,7 +62,7 @@ function Contact() {
         <div className="flex flex-col space-y-6 items-end h-auto w-full max-w-[90%] sm:max-w-[450px]">
           <input
             name="name"
-            maxLength={50}
+            maxLength={200}
             required
             value={formData.name}
             onChange={handleChange}
@@ -72,7 +72,7 @@ function Contact() {
           />
           <input
             name="email"
-            maxLength={60}
+            maxLength={254}
             required
             value={formData.email}
             onChange={handleChange}
@@ -82,7 +82,7 @@ function Contact() {
           />
           <textarea
             name="text"
-            maxLength={430}
+            maxLength={600}
             required
             value={formData.text}
             onChange={handleChange}

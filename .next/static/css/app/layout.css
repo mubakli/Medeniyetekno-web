@@ -2008,16 +2008,16 @@ video {
     height: 500px;
   }
 
-  .md\:h-full {
-    height: 100%;
-  }
-
   .md\:h-auto {
     height: auto;
   }
 
-  .md\:min-h-screen {
-    min-height: 100vh;
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:w-1\/4 {
@@ -2046,14 +2046,6 @@ video {
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-\[90\%\] {
-    width: 90%;
-  }
-
-  .md\:w-1\/2 {
-    width: 50%;
   }
 
   .md\:max-w-\[50\%\] {
