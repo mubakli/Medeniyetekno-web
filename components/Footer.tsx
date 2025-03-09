@@ -10,50 +10,50 @@ function Footer() {
           <div className="text-[#df9404] text-2xl font-normal font-['Courier New']">
             #CreateTheFutureToday
           </div>
-          <div className="hidden md:block text-white text-base font-normal font-['Montserrat']">
+          <div className="hidden md:block w-[70%] text-md lg:text-lg text-white text-base font-normal font-['Montserrat']">
             MedeniyeTekno, 2018 yılında İstanbul Medeniyet Üniversitesi
             bünyesinde bilgisayar mühendisliği öğrencileri tarafından kurulan
             bir öğrenci kulübüdür.
           </div>
         </div>
-        <div className="flex">
-          <div className="w-1/2 md:w-full text-center">
-            <span className="text-white text-base font-bold font-['Montserrat'] underline">
+        <div className="flex flex-col sm:flex-row">
+          <div className="sm:w-1/2 md:w-full md:px-10 text-center">
+            <span className="text-white text-base text-md md:text-xl font-bold font-['Montserrat'] underline">
               İLETİŞİM
               <br />
             </span>
-            <span className="text-white text-base font-bold font-['Montserrat']">
+            <span className="text-white  text-md md:text-lg text-base font-bold font-['Montserrat']">
               <br />
             </span>
-            <span className="text-white text-base font-semibold font-['Montserrat']">
+            <span className="text-white text-md md:text-lg text-base font-semibold font-['Montserrat']">
               E-mail
               <br />
             </span>
-            <span className="text-white text-base font-normal font-['Montserrat']">
+            <span className="text-white text-lg  text-base font-normal font-['Montserrat']">
               medeniyetekno@gmail.com
               <br />
               <br />
             </span>
-            <span className="text-white text-base font-semibold font-['Montserrat']">
+            <span className="text-white text-md md:text-lg text-base font-semibold font-['Montserrat']">
               Adres
               <br />
             </span>
-            <span className="text-white text-base font-normal font-['Montserrat']">
+            <span className="text-white text-lg text-base font-normal font-['Montserrat']">
               Ünalan Mah. Ünalan Sok D-100 Karayolu Yanyolu, 34700
               Üsküdar/İstanbul
               <br />
               <br />
             </span>
           </div>
-          <div className="w-1/2 text-center">
-            <span className="text-white text-base font-bold font-['Montserrat'] underline">
+          <div className="sm:w-1/2 text-center">
+            <span className="text-white text-xl text-base font-bold font-['Montserrat'] underline">
               NAVİGASYON
               <br />
             </span>
-            <span className="text-white text-base font-bold font-['Montserrat']">
+            <span className="text-white text-lg text-base font-bold font-['Montserrat']">
               <br />
             </span>
-            <span className="text-white text-base font-semibold font-['Montserrat']">
+            <span className="text-white text-lg text-base font-semibold font-['Montserrat']">
               <Link href="/">Ana Sayfa</Link>
               <br />
               <br />
