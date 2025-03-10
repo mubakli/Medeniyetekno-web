@@ -4,10 +4,19 @@ import Subscriber from "@/models/Subscriber";
 
 export async function POST(req) {
   try {
-    const { name, email, phone, school, faculty, grade, more } =
+    const { name, email, phone, school, faculty, grade, more, category } =
       await req.json();
 
-    if (!name || !email || !phone || !school || !faculty || !grade || !more) {
+    if (
+      !name ||
+      !email ||
+      !phone ||
+      !school ||
+      !faculty ||
+      !grade ||
+      !more ||
+      !category
+    ) {
       return NextResponse.json(
         { error: "All fields are required" },
         { status: 400 }
@@ -36,6 +45,7 @@ export async function POST(req) {
       faculty,
       grade,
       more,
+      category,
     });
     await newSubscriber.save();
 

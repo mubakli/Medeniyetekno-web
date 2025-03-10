@@ -49,7 +49,7 @@ export default function Apply() {
 
       const data = await response.json();
       if (response.ok) {
-        setStatus("Successfully Submitted!");
+        setStatus("Successfully ubmitted!");
         alert("Successfully submitted!");
         setFormData({
           name: "",

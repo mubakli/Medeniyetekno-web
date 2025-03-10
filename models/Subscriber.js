@@ -8,6 +8,7 @@ const SubscriberSchema = new mongoose.Schema({
   faculty: { type: String, required: true },
   grade: { type: String, required: true },
   more: { type: String, required: true },
+  category: { type: String, required: true },
 });
 
 export default mongoose.models.Subscriber ||
