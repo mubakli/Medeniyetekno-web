@@ -12,10 +12,15 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/about/page": [
+    "/api/admin/subscribers/route": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
+      "static/chunks/app/api/admin/subscribers/route.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

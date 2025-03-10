@@ -57,3 +57,22 @@ export async function POST(req) {
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
+export async function GET(req) {
+  try {
+    await connectToDatabase(); // Connect to MongoDB
+
+    const { searchParams } = new URL(req.url);
+    const secretKey = searchParams.get("key");
+
+    // Validate the API key
+    if (!secretKey || secretKey !== process.env.ADMIN_SECRET_KEY) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
+    // Fetch subscribers from MongoDB
+    const subscribers = await Subscriber.find({});
+    return NextResponse.json({ subscribers }, { status: 200 });
+  } catch (error) {
+    return NextResponse.json({ error: "Server error" }, { status: 500 });
+  }
+}
