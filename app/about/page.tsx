@@ -296,7 +296,7 @@ export default function About() {
                       <MemberComponent
                         title="SPONSORLUK EKİP ÜYESİ"
                         name="SETENAY TEN"
-                        surname="ÖZYURTLU"
+                        surname="ÖZYURT"
                         image="setenay"
                         linkedinUrl="https://www.linkedin.com/in/setenay-ten-%C3%B6zyurt-61484124b/"
                         imgOps="50%_30%"
