@@ -10,18 +10,35 @@ export default function Apply() {
     faculty: "",
     grade: "",
     more: "",
+    category: "", // New category field
   });
 
+  const [status, setStatus] = useState("");
+
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async () => {
-    const { name, email, phone, school, faculty, grade, more } = formData;
-    if (!name || !email || !phone || !school || !faculty || !grade || !more)
+    const { name, email, phone, school, faculty, grade, more, category } =
+      formData;
+    if (
+      !name ||
+      !email ||
+      !phone ||
+      !school ||
+      !faculty ||
+      !grade ||
+      !more ||
+      !category
+    ) {
+      setStatus("Please fill all fields!");
       return alert("Please fill all fields!");
+    }
 
     try {
       const response = await fetch("/api/apply", {
@@ -32,6 +49,7 @@ export default function Apply() {
 
       const data = await response.json();
       if (response.ok) {
+        setStatus("Successfully Submitted!");
         alert("Successfully submitted!");
         setFormData({
           name: "",
@@ -41,6 +59,7 @@ export default function Apply() {
           faculty: "",
           grade: "",
           more: "",
+          category: "", // Reset category
         });
       } else {
         alert(data.error);
@@ -121,6 +140,27 @@ export default function Apply() {
             </div>
           ))}
 
+          {/* Category Selection */}
+          <div className="relative mb-4">
+            {/* <img
+              className="absolute left-4 top-3 w-6 h-6"
+              alt="category icon"
+              src="/apply/categoryIcon.png"
+            /> */}
+            <select
+              name="category"
+              value={formData.category}
+              onChange={handleChange}
+              className="pl-14 pr-4 py-2 w-full bg-[#ddd9d2] text-[#0b338b] text-base font-semibold rounded-[25px] outline-none"
+            >
+              <option value="" disabled>
+                Katılmak İstediğiniz Atölyeyi Seçiniz
+              </option>
+              <option value="teknoloji">Teknoloji Atölyesi</option>
+              <option value="tasarim">Tasarım Atölyesi</option>
+            </select>
+          </div>
+
           {/* Textarea Field */}
           <div className="relative mb-4">
             <img
@@ -145,6 +185,9 @@ export default function Apply() {
             Kayıt Ol
           </button>
         </div>
+        {status && (
+          <p className="flex text-orange-600 text-sm mt-2">{status}</p>
+        )}
       </div>
     </div>
   );
