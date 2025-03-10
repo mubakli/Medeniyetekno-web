@@ -6,7 +6,7 @@ function Footer() {
       <div className=" border-t-[2px] border-[#df9404] w-full mb-4"></div>
       <div className="pb-5 w-full px-[5%] md:flex items-start justify-between">
         <div className="text-center pb-5 md:text-left md:pb-0 space-y-5">
-          <div className="font-bold text-white text-2xl">MEDENİYETEKNO</div>
+          <div className="font-bold text-blue-500 text-2xl">MEDENİYETEKNO</div>
           <div className="text-[#df9404] text-2xl font-normal font-['Courier New']">
             #CreateTheFutureToday
           </div>
@@ -18,7 +18,7 @@ function Footer() {
         </div>
         <div className="flex flex-col sm:flex-row">
           <div className="sm:w-1/2 md:w-full md:px-10 text-center">
-            <span className="text-white text-base text-md md:text-xl font-bold font-['Montserrat'] underline">
+            <span className="text-red-500 text-base text-xl font-bold font-['Montserrat'] underline">
               İLETİŞİM
               <br />
             </span>
@@ -46,7 +46,7 @@ function Footer() {
             </span>
           </div>
           <div className="sm:w-1/2 text-center">
-            <span className="text-white text-xl text-base font-bold font-['Montserrat'] underline">
+            <span className="text-red-500 text-xl text-base font-bold font-['Montserrat'] underline">
               NAVİGASYON
               <br />
             </span>
