@@ -36,8 +36,8 @@ export default function Apply() {
       !more ||
       !category
     ) {
-      setStatus("Please fill all fields!");
-      return alert("Please fill all fields!");
+      setStatus("Lütfen bütün boşlukları doldurunuz!");
+      return alert("Lütfen bütün boşlukları doldurunuz!");
     }
 
     try {
@@ -49,8 +49,8 @@ export default function Apply() {
 
       const data = await response.json();
       if (response.ok) {
-        setStatus("Successfully ubmitted!");
-        alert("Successfully submitted!");
+        setStatus("Kaydınız başarıyla oluşturuldu!");
+        alert("Kaydınız başarıyla oluşturuldu!");
         setFormData({
           name: "",
           email: "",
