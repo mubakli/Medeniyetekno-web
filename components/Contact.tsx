@@ -1,4 +1,4 @@
-import React, { use } from "react";
+import React from "react";
 import { Montserrat } from "next/font/google";
 import { useState } from "react";
 const montserrat = Montserrat({
@@ -25,7 +25,7 @@ function Contact() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setStatus("Sending...");
 
@@ -46,7 +46,7 @@ function Contact() {
         // If there is an error in the response (like Missing 'to' field)
         setStatus(data.error?.message || "Failed to send message.");
       }
-    } catch (error) {
+    } catch {
       setStatus("Error sending message.");
     }
   };

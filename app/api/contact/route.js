@@ -1,9 +1,20 @@
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(req) {
   try {
+    const apiKey = process.env.RESEND_API_KEY;
+    const to = process.env.RESEND_TO_EMAIL;
+
+    if (!apiKey || !to) {
+      return new Response(
+        JSON.stringify({
+          success: false,
+          error: "Email service is not configured.",
+        }),
+        { status: 500 }
+      );
+    }
+
     const body = await req.json();
     const { name, email, text } = body;
 
@@ -19,9 +30,10 @@ export async function POST(req) {
     }
 
     // Send the email via Resend API
+    const resend = new Resend(apiKey);
     const emailResponse = await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: process.env.RESEND_TO_EMAIL,
+      to,
       subject: `New Contact Form Submission from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${text}`,
     });
