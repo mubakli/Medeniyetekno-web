@@ -18,10 +18,16 @@
       "static/css/app/events/page.css",
       "static/chunks/app/events/page.js"
     ],
-    "/apply/page": [
+    "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/apply/page.js"
+      "static/css/app/contact/page.css",
+      "static/chunks/app/contact/page.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
     ]
   }
 }
